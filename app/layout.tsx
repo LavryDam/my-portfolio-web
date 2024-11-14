@@ -1,11 +1,14 @@
 import Navbar from "../components/Navbar";
 import { ReactNode } from "react";
+import Fonts from "../fonts/Fonts";
+
 
 export const metadata = {
   title: "Dina Martinez Ruiz",
   description: "Mi portfolio web",
   keywords:"portfolio, trabajo, proyecto, curriculum"
 }
+
 
 //tipado typescript para renderizar cualquier cosa 
 type RootLayoutProps = {
@@ -18,7 +21,7 @@ export default function RootLayout({children}:RootLayoutProps) {
       <head>
         
       </head>
-      <body>
+      <body className={Fonts.className}>
         <Navbar/>
         {children}
       </body>
