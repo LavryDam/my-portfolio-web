@@ -1,26 +1,25 @@
-import Link from "next/link";
+import Navbar from "../components/Navbar";
+import { ReactNode } from "react";
 
-export default function RootLayout({children}) {
+export const metadata = {
+  title: "Dina Martinez Ruiz",
+  description: "Mi portfolio web",
+  keywords:"portfolio, trabajo, proyecto, curriculum"
+}
+
+//tipado typescript para renderizar cualquier cosa 
+type RootLayoutProps = {
+  children: ReactNode;
+};
+
+export default function RootLayout({children}:RootLayoutProps) {
   return (
     <html lang="es">  
       <head>
-        <title>Dina Martinez Ruiz</title>
+        
       </head>
       <body>
-        <nav>
-        <h1>Bienvenido a mi Portfolio</h1>
-          <ul>
-            <li>
-              <Link href="/about">Sobre mi</Link>
-            </li>
-            <li>
-              <Link href="/proyectos">Proyectos</Link>
-            </li>
-            <li>
-              <Link href="/contacto">Contacto</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navbar/>
         {children}
       </body>
     </html>
