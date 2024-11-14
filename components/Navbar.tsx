@@ -1,18 +1,19 @@
 import Link from "next/link";
+import "./Navbar.css";
 
 export default function Navbar(){
     return(
-        <nav>
+        <nav className="navbar">
             <h1>Bienvenido a mi Portfolio</h1>
-            <ul>
+            <ul className="navegacion">
                 <li>
-                    <Link href="/about">Sobre mi</Link>
+                    <Link className="nav-link" href="/about">Cosas sobre mi</Link>
                 </li>
                 <li>
-                    <Link href="/proyectos">Proyectos</Link>
+                    <Link className="nav-link" href="/proyectos">Explora mis proyectos</Link>
                 </li>
                 <li>
-                    <Link href="/contacto">Contacto</Link>
+                    <Link className="nav-link" href="/contacto">¡Contáctame!</Link>
                 </li>
             </ul>
         </nav>

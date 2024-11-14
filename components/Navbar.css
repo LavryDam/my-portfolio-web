@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #333333;
+    color: #fcf2aa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo de la barra de navegación */
+nav ul.navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul.navegacion li {
+    margin: 0 15px;
+}
+
+/* Estilos para los enlaces */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Cambia a un color dorado al pasar el ratón */
+}
