@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
 import "./globals.css"
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
 export const metadata = {
   title: "Dina Martinez Ruiz",
