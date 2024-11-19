@@ -7,6 +7,9 @@ export default function Navbar(){
             <h1>Bienvenido a mi Portfolio</h1>
             <ul className="navegacion">
                 <li>
+                    <Link className="nav-link" href="/">Inicio</Link>
+                </li>
+                <li>
                     <Link className="nav-link" href="/about">Cosas sobre mi</Link>
                 </li>
                 <li>
