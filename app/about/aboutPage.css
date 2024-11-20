@@ -48,10 +48,27 @@ body {
     transform: scale(1.05);
 }
 
+.contenedor-about {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 90px;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.img-dina {
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     .about-page {
-        margin: 20px; /* Reducir margen en pantallas pequeñas */
+        margin: 20px;
         padding: 15px;
     }
 
@@ -66,5 +83,14 @@ body {
     .enlace-cv {
         font-size: 1rem;
         padding: 8px 16px;
+    }
+
+    .contenedor-about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-dina {
+        margin-top: 20px;
     }
 }
