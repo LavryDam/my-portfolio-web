@@ -1,4 +1,6 @@
+import Link from "next/link";
 import "./contactPage.css"
+import Image from "next/image";
 
 export const metadata = {
     title: "Contacto",
@@ -6,22 +8,26 @@ export const metadata = {
 
 function contactoPage(){
     return(
-        <div className="form-div">
-            <h1>Déjame un mensaje</h1>
-            <form className="form">
-                <input type="text" placeholder="Nombre" required />
-                <input type="email" placeholder="Email" required />
-                <input 
-                    type="tel" 
-                    placeholder="Teléfono" 
-                    pattern="^\+?[0-9]{1,10}$" 
-                    maxLength={10} 
-                    title="Debe ser un número de 10 dígitos" 
-                    required
-                />
-                <textarea rows={5} placeholder="Si tienes algo que decirme..."></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+        <div className="contact-page">
+            <h1>Contacto</h1>
+            <div className="contact-item">
+                <div>
+                    <Image src="/docs/gmail.png" width={45} height={45} alt="Imagen gmail"/>
+                </div>
+                <div className="contact-text">
+                    <h3>Correo electronico:</h3>
+                    <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=dinamartinezruiz@gmail.com" target="_blank">dinamartinezruiz@gmail.com</Link>    
+                </div>
+            </div>
+            <div className="contact-item">
+                <div>
+                    <Image src="/docs/phone.png" width={45} height={45} alt="Imagen telefono"/>
+                </div>
+                <div className="contact-text">
+                    <h3>Telefono:</h3>
+                    <Link href="tel:+34665059581">665059581</Link> 
+                </div>
+            </div>
         </div>
     );
 }
