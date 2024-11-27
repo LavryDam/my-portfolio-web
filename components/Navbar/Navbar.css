@@ -1,13 +1,17 @@
-.navbar{
-    background-color: #333333;
-    color: #fcf2aa;
-    padding: 20px 0;
+.navbar {
+    background: linear-gradient(to right, #ffcc70, #f6d365); /* Fondo sunset tirando a amarillo */
+    color: #fff;
+    padding: 60px 40px;
     text-align: center;
-}
-
-nav h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    position: absolute;
+    top: 20px; /* Ubicarlo cerca del borde superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajustar al centro */
+    width: 90%; /* Ajustar el tamaño */
+    max-width: 800px; /* Tamaño máximo */
+    z-index: 1000; /* Asegurarse de que esté encima del contenido */
 }
 
 /* Estilo de la barra de navegación */
@@ -16,6 +20,7 @@ nav ul.navegacion {
     display: flex;
     justify-content: center;
     padding: 0;
+    margin: 0;
 }
 
 nav ul.navegacion li {
@@ -27,9 +32,11 @@ nav ul.navegacion li {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
-    transition: color 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #ffd700; /* Cambia a un color dorado al pasar el ratón */
+    color: #ffd700; /* Color dorado */
+    transform: scale(1.1); /* Efecto de agrandamiento */
 }
