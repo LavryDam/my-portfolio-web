@@ -37,6 +37,6 @@ nav ul.navegacion li {
 }
 
 .nav-link:hover {
-    color: #ffd700; /* Color dorado */
+    color: #ff6f61; /* Color dorado */
     transform: scale(1.1); /* Efecto de agrandamiento */
 }
