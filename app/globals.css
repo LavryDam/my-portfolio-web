@@ -4,20 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #ff9a8b, #ff6f61, #ff8c42, #f6d365); /* Sunset cálido */
+    background: linear-gradient(to bottom, #ff9a8b, #ff6f61, #ff8c42, #f6d365);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 100px; /* Espacio para el navbar */
+    padding-top: 100px;
 }
 
-
-/* Contenedor principal de la imagen */
 .image-container {
     display: flex;
     justify-content: center;

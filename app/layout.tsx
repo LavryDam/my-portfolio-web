@@ -2,6 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
 import "./globals.css"
+import About from "./about/page";
+import Contact from "./contacto/page";
+import Projects from "./proyectos/page";
 
 export const metadata = {
   title: "Dina Martinez Ruiz",
@@ -23,6 +26,15 @@ export default function RootLayout({children}:RootLayoutProps) {
       <body className={Fonts.className}>
         <Navbar/>
         {children}
+        <div id="about">
+          <About/>
+        </div>
+        <div id="proyects">
+          <Projects/>
+        </div>
+        <div id="contact">
+          <Contact/>
+        </div>
       </body>
     </html>
   );
