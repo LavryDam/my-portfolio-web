@@ -43,6 +43,31 @@ body {
     position: relative;
 }
 
+/* Flecha debajo del texto */
+.arrow-link {
+    margin-top: -160px; /* Espacio entre la frase y la flecha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+/* Animación al hacer hover */
+.arrow-link:hover .arrow {
+    transform: rotate(-45deg) translateY(5px); /* Movimiento hacia abajo */
+    margin-top: 10px;
+}
 
 /* Ajuste del diseño responsivo */
 @media (max-width: 768px) {

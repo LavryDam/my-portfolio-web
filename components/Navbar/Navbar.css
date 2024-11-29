@@ -1,20 +1,20 @@
 .navbar {
-    background: linear-gradient(to right, #ffcc70, #f6d365); /* Fondo sunset tirando a amarillo */
+    background: linear-gradient(to right, #ffcc70, #f6d365);
     color: #fff;
-    padding: 60px 40px;
+    padding: 30px 50px;
     text-align: center;
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 20px; /* Ubicarlo cerca del borde superior */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Ajustar al centro */
-    width: 90%; /* Ajustar el tamaño */
-    max-width: 800px; /* Tamaño máximo */
-    z-index: 1000; /* Asegurarse de que esté encima del contenido */
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 90%; 
+    max-width: 800px; 
+    z-index: 1000; 
+    position: fixed;
+    top: 15px;
 }
 
-/* Estilo de la barra de navegación */
 nav ul.navegacion {
     list-style: none;
     display: flex;
@@ -27,7 +27,6 @@ nav ul.navegacion li {
     margin: 0 15px;
 }
 
-/* Estilos para los enlaces */
 .nav-link {
     color: #fff;
     text-decoration: none;
@@ -37,6 +36,6 @@ nav ul.navegacion li {
 }
 
 .nav-link:hover {
-    color: #ff6f61; /* Color dorado */
-    transform: scale(1.1); /* Efecto de agrandamiento */
+    color: #ff6f61;
+    transform: scale(1.1); 
 }
