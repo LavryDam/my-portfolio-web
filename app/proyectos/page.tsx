@@ -1,31 +1,44 @@
-import "./projectPage.css"
+import Link from "next/link";
+import "./projectPage.css";
 
 export const metadata = {
     title: "Mis proyectos",
-}
+};
 
-function proyectosPage(){
+function ProyectosPage() {
     return (
         <section className="proyectos" id="proyectos">
-            <h2 className="titulo-de-proyectos">Mi Proyecto</h2>
-            <div className="contenedor-de-proyectos">
-                <div className="contenedor-de-proyectos tarjeta-de-proyectos">
-                    <h3 className="titulo-de-proyectos">App de recetas saludables y personalizadas</h3>
-                    <p className="detalle-de-proyectos">
+            <h2>Mis Proyectos</h2>
+            <div className="contenedor-proyectos">
+                <div className="tarjeta-proyecto">
+                    <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
+                    <p className="detalle-proyecto">
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
                     </p>
-                    <a href="https://github.com/LavryDam/portfolio-recipes-project.git" target="_blank" className="enlace-de-proyecto">Descarga</a>
-                    <h3 className="titulo-de-proyectos">Rastreador de Gastos</h3>
-                    <p className="detalle-de-proyectos">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                        ratione vel inventore labore commodi modi quos culpa aut saepe!
-                        Alias!
+                    <Link
+                        href="https://github.com/LavryDam/portfolio-recipes-project.git"
+                        target="_blank"
+                        className="enlace-proyecto"
+                    >
+                        Ver en GitHub
+                    </Link>
+                </div>
+                <div className="tarjeta-proyecto">
+                    <h3 className="titulo-proyecto">Rastreador de Gastos</h3>
+                    <p className="detalle-proyecto">
+                        Una herramienta útil para gestionar tus finanzas personales, llevar un registro de tus ingresos y gastos, y planificar mejor tu presupuesto.
                     </p>
-                    <a href="#" target="_blank" className="enlace-de-proyecto">Check it Out</a>
+                    <Link
+                        href="#"
+                        target="_blank"
+                        className="enlace-proyecto"
+                    >
+                        Ver Demo
+                    </Link>
                 </div>
             </div>
         </section>
     );
 }
 
-export default proyectosPage;
+export default ProyectosPage;
