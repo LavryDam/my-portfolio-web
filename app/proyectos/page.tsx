@@ -15,6 +15,12 @@ function ProyectosPage() {
                     <p className="detalle-proyecto">
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
                     </p>
+                    <ul className="tecnologias">
+                        <li>Kotlin</li>
+                        <li>Firebase</li>
+                        <li>Android</li>
+                        <li>Retrofit</li>
+                    </ul>
                     <Link
                         href="https://github.com/LavryDam/portfolio-recipes-project.git"
                         target="_blank"
@@ -27,6 +33,7 @@ function ProyectosPage() {
                     <h3 className="titulo-proyecto">Rastreador de Gastos</h3>
                     <p className="detalle-proyecto">
                         Una herramienta útil para gestionar tus finanzas personales, llevar un registro de tus ingresos y gastos, y planificar mejor tu presupuesto.
+                        
                     </p>
                     <Link
                         href="#"
