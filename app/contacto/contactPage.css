@@ -4,13 +4,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
-    margin: 0 auto;
+    padding: 50px;
+    margin: 50px auto;
     max-width: 600px;
-    background: linear-gradient(to right, #f3eac2, #c4a77d);
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
+}
   
 .contact-page h1 {
     font-size: 2.5rem;
