@@ -1,0 +1,39 @@
+.proyectos {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+  
+.titulo-de-proyectos {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  
+.contenedor-de-proyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.contenedor-de-proyectos p {
+    padding: 0.4rem;
+  }
+  
+  .titulo-de-proyecto {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .detalles-de-proyecto {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .tarjeta-de-proyecto {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
