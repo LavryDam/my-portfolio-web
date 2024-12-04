@@ -6,12 +6,14 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
 body {
     margin: 0;
     background: linear-gradient(to bottom, #ff9a8b, #ff6f61, #ff8c42, #f6d365);
     min-height: 100vh;
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +45,6 @@ body {
     position: relative;
 }
 
-/* Flecha debajo del texto */
 .arrow-link {
     margin-top: -160px; /* Espacio entre la frase y la flecha */
     display: flex;
