@@ -1,0 +1,64 @@
+.hamburger-menu {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+/* Botón Hamburguesa */
+.hamburger-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 20;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #2c3e50;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.hamburger-button.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-button.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-button.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Menú Desplegable */
+.menu-content {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.menu-item {
+    display: block;
+    padding: 0.8rem 1.2rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
