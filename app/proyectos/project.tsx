@@ -14,7 +14,7 @@ function ProyectosPage() {
                 <div className="tarjeta-proyecto">
                     <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
                     <Image
-                        src="/docs/libroRecetas.jpg"
+                        src="/images/libroRecetas.jpg"
                         width={310}
                         height={200}
                         alt="Picture of the author"

@@ -11,7 +11,7 @@ function aboutPage(){
         <>
             <div className="contenedor-about">
                 <div className="img-dina">
-                    <Image src="/docs/img-dina.jpg" width={150} height={150} alt="Imagen Dina"/>
+                    <Image src="/images/img-dina.jpg" width={150} height={150} alt="Imagen Dina"/>
                 </div>
                 <div className="timeline">
                     <div className="timeline-item">
