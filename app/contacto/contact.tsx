@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./contactPage.css"
+import "./contact.css"
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 

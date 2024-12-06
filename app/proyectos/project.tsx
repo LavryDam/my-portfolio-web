@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./projectPage.css";
+import "./project.css";
 import Image from 'next/image'
 
 export const metadata = {

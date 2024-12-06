@@ -2,9 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
 import "./globals.css"
-import About from "./about/page";
-import Contact from "./contacto/page";
-import Projects from "./proyectos/page";
+import About from "./about/about";
+import Contact from "./contacto/contact";
+import Projects from "./proyectos/project";
 
 export const metadata = {
   title: "Dina Martinez Ruiz",
