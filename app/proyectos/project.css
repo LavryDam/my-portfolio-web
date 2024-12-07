@@ -41,6 +41,7 @@
 .titulo-proyecto {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  margin-top: 57px;
   color: #555;
 }
 
@@ -79,4 +80,25 @@
   padding: 5px 10px;
   border-radius: 5px;
   display: inline-block;
+}
+
+.plantilla-movil {
+  position: relative;
+  width: 320px; /* Ajusta el ancho según tu plantilla */
+  height: 625px; /* Ajusta el alto según tu plantilla */
+  margin: 0 auto 1rem auto;
+  background-image: url('/images/img-movil.jpg'); /* Ruta de tu plantilla */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Asegura que el contenido no se salga del marco */
+}
+
+.contenido-movil {
+  width: 90%; /* Ajusta el contenido dentro de la plantilla */
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover; /* Asegura que la imagen se ajuste bien */
 }
