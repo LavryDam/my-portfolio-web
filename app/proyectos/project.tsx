@@ -18,6 +18,7 @@ function ProyectosPage() {
                         width={310}
                         height={200}
                         alt="Picture of the author"
+                        layout="responsive"
                     />
                     <p className="detalle-proyecto">
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
@@ -43,6 +44,7 @@ function ProyectosPage() {
                         width={310}
                         height={200}
                         alt="Picture of the author"
+                        layout="responsive"
                     />
                     <p className="detalle-proyecto">
                         Una herramienta útil para gestionar tus finanzas personales, llevar un registro de tus ingresos y gastos, y planificar mejor tu presupuesto.

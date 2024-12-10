@@ -80,3 +80,33 @@
   border-radius: 5px;
   display: inline-block;
 }
+
+@media (max-width: 768px) {
+  .proyectos {
+    padding: 30px 10px; /* Reduce el padding en pantallas pequeñas */
+  }
+
+  .contenedor-proyectos {
+    gap: 10px; /* Reduce el espacio entre tarjetas */
+  }
+
+  .tarjeta-proyecto {
+    max-width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
+    margin: 0 auto; /* Centra las tarjetas */
+  }
+}
+
+@media (max-width: 480px) {
+  .proyectos h2 {
+    font-size: 1.5rem; /* Reduce el tamaño del título */
+  }
+
+  .tarjeta-proyecto {
+    padding: 15px; /* Reduce el padding interno */
+  }
+
+  .enlace-proyecto {
+    font-size: 0.9rem; /* Ajusta el tamaño del texto del botón */
+    padding: 8px 15px; /* Reduce el tamaño del botón */
+  }
+}
