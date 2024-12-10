@@ -13,7 +13,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #2c3e50;
-  border-bottom: 3px solid #4caf50;
+  border-bottom: 3px solid #FFC107;
 }
 
 .contenedor-proyectos {
@@ -55,7 +55,7 @@
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
-  background-color: #4caf50;
+  background-color: #FF5722;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s;
