@@ -36,7 +36,7 @@ function ProyectosPage() {
                             Ver en GitHub
                         </Link>
                     </div>
-                <div className="tarjeta-proyecto">
+                <div className="plantilla-movil">
                     <h3 className="titulo-proyecto">App Rastreador de Gastos</h3>
                     <Image
                         src="/docs/libroRecetas.jpg"

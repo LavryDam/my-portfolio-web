@@ -19,29 +19,14 @@
 .contenedor-proyectos {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
-}
-
-.tarjeta-proyecto {
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 350px;
-  padding: 20px;
-  text-align: justify;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.tarjeta-proyecto:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .titulo-proyecto {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  margin-top: 57px;
+  margin-top: 46px;
   color: #555;
 }
 
@@ -84,16 +69,21 @@
 
 .plantilla-movil {
   position: relative;
-  width: 320px; /* Ajusta el ancho según tu plantilla */
-  height: 625px; /* Ajusta el alto según tu plantilla */
+  width: 391px;
+  height: 761px;
+  transition: transform 0.3s ease;
   margin: 0 auto 1rem auto;
-  background-image: url('/images/img-movil.jpg'); /* Ruta de tu plantilla */
+  background-image: url('/images/img-movil.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Asegura que el contenido no se salga del marco */
+  overflow: hidden;
+  padding: 40px;
+  text-align: justify;
+}
+
+.plantilla-movil:hover {
+  transform: scale(1.05);
 }
 
 .contenido-movil {
