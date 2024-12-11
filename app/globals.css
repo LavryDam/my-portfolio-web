@@ -33,8 +33,7 @@ body {
 .overlay-text {
     background: linear-gradient(to right, #f5c6a5, #f1a470); /* Beige cálido y arena */
     color: #010101;
-    font-size: 1.6rem;
-    font-weight: bold;
+    font-size: 1.3rem;
     padding: 20px 40px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
