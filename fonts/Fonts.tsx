@@ -1,11 +1,9 @@
-import { Play } from 'next/font/google'
+import { Montserrat } from 'next/font/google';
 
-const play = Play({
-    weight:["400","700"],
-    style:["normal"],
-    subsets:["latin","greek"],
-  })
-  
-export default play;
+const montserrat = Montserrat({
+  weight:["400","700","100","200","300","500"],
+  style:["normal","italic"],
+  subsets:["latin"],
+})
 
-
+export default montserrat;

@@ -12,7 +12,7 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #010101;
   border-bottom: 3px solid #FFC107;
 }
 
@@ -41,12 +41,12 @@
 .titulo-proyecto {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #555;
+  color: #010101;
 }
 
 .detalle-proyecto {
   font-size: 1rem;
-  color: #666;
+  color: #010101;
   margin-bottom: 1.5rem;
 }
 
@@ -54,7 +54,7 @@
   display: inline-block;
   padding: 10px 20px;
   font-size: 1rem;
-  color: #fff;
+  color: #010101;
   background-color: #FF5722;
   border-radius: 8px;
   text-decoration: none;
@@ -62,7 +62,7 @@
 }
 
 .enlace-proyecto:hover {
-  background-color: #45a049;
+  background-color: #FF5722;
 }
 
 .tecnologias {
@@ -70,7 +70,7 @@
   padding: 0;
   margin: 1rem 0;
   font-size: 0.9rem;
-  color: #444;
+  color: #010101;
 }
 
 .tecnologias li {

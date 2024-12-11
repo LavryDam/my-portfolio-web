@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    color: #333;
+    color: #010101;
 }
 
 .timeline {
@@ -30,7 +30,7 @@ body {
 
 .date {
     font-weight: bold;
-    color: #444;
+    color: #010101;
     margin-bottom: 5px;
     display: block;
 }
@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 53px;
     margin: 0 auto;
     max-width: 1200px;
     background: linear-gradient(to right, #f5c6a5, #f1a470);
@@ -52,7 +52,7 @@ body {
 .about-page h1 {
     font-size: 2.5rem; 
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #010101;
     border-bottom: 3px solid #FF5722;
     display: inline-block;
 }
@@ -60,8 +60,8 @@ body {
 .bio-texto {
     font-size: 1.2rem;
     line-height: 1.8;
-    text-align: justify; 
-    color: #555;
+    text-align: left; 
+    color: #010101;
     margin-bottom: 30px;
 }
 
@@ -71,7 +71,7 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #ffffff; 
+    color: #010101; 
     background-color: #FF5722; 
     padding: 10px 20px;
     border-radius: 5px;
@@ -90,13 +90,6 @@ body {
     gap: 90px;
     margin: 160px auto;
     max-width: 900px;
-}
-
-.img-dina {
-    flex-shrink: 0; /* Evita que la imagen se reduzca */
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: none;
 }
 
 

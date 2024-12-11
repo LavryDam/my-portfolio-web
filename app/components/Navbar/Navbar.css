@@ -20,7 +20,7 @@ nav ul.navegacion {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: -9px;
 }
 
 nav ul.navegacion li {
@@ -28,7 +28,7 @@ nav ul.navegacion li {
 }
 
 .nav-link {
-    color: #fff;
+    color: #010101;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;

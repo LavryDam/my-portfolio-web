@@ -1,6 +1,5 @@
 import Link from "next/link";
 import "./about.css";
-import Image from "next/image";
 
 export const metadata = {
     title: "Sobre mí",
@@ -11,7 +10,7 @@ function aboutPage(){
         <>
             <div className="contenedor-about">
                 <div className="img-dina">
-                    <Image src="/images/img-dina.jpg" width={150} height={150} alt="Imagen Dina"/>
+                    
                 </div>
                 <div className="timeline">
                     <div className="timeline-item">
@@ -34,7 +33,7 @@ function aboutPage(){
                     Con experiencia en React y React Native, he trabajado en proyectos multiplataforma que abarcan Android e iOS. 
                     Siempre en búsqueda de nuevas tecnologías, actualmente estoy profundizando en Next.js para estar a la vanguardia del desarrollo web y móvil.  
                     </p>
-                    <Link href="docs/CV DINA MARTINEZ RUIZ.pdf" target="_blank" download className="enlace-cv">Descargar Currículum Vitae</Link>
+                    <Link href="docs/CV DINA MARTINEZ RUIZ.pdf" target="_blank" download className="enlace-cv">Descargar CV</Link>
                 </div>
             </div>
         </>
