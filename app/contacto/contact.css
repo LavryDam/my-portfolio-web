@@ -28,9 +28,9 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    padding: 10px 40px;
+    padding: 20px;
     color: white;
-    border-radius: 15px;
+    border-radius: 50%;
     transition: all 0.3s ease;
     text-decoration: none;
     cursor: pointer;

@@ -6,14 +6,12 @@ body {
 }
 
 .timeline {
-    border-left: 2px solid #FFC107;
-    padding-left: 20px;
+    border-left: 2px solid #FF5722;
     position: relative;
 }
 
 .timeline-item {
     position: relative;
-    margin-bottom: 20px;
     padding: 11px;
 }
 
@@ -24,7 +22,7 @@ body {
     top: 14px;
     width: 14px;
     height: 14px;
-    background-color: #FFC107;
+    background-color: #FF5722;
     border-radius: 50%;
 }
 
@@ -69,11 +67,11 @@ body {
 .enlace-cv {
     display: inline-block; 
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     color: #010101; 
     background-color: #FF5722; 
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 14px 18px;
+    border-radius: 16px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -87,7 +85,7 @@ body {
     align-items: center; 
     justify-content: center;
     gap: 90px;
-    margin: 160px auto;
+    margin: 130px auto;
     max-width: 900px;
 }
 

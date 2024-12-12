@@ -1,6 +1,5 @@
 import Link from "next/link";
 import "./Navbar.css";
-import HamburgerMenu from "../Menu/HamburgerMenu";
 
 
 export default function Navbar(){
@@ -19,7 +18,6 @@ export default function Navbar(){
                 <li>
                     <Link className="nav-link" href="#contact">¡Contáctame!</Link>
                 </li>
-                <HamburgerMenu/>
             </ul>
         </nav>
     );

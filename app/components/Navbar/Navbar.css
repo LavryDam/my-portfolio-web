@@ -9,7 +9,7 @@
     left: 50%; 
     transform: translateX(-50%);
     width: 90%; 
-    max-width: 800px; 
+    max-width: 700px; 
     z-index: 1000; 
     position: fixed;
     top: 15px;
@@ -21,6 +21,7 @@ nav ul.navegacion {
     justify-content: center;
     padding: 0;
     margin: -9px;
+    gap: 30px;
 }
 
 nav ul.navegacion li {
