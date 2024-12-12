@@ -10,10 +10,10 @@
 
 .proyectos h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   color: #010101;
-  border-bottom: 3px solid #FFC107;
+  border-bottom: 2px solid #FF5722;
 }
 
 .contenedor-proyectos {
@@ -39,7 +39,7 @@
 }
 
 .titulo-proyecto {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #010101;
 }
@@ -55,7 +55,7 @@
   padding: 10px 20px;
   font-size: 1rem;
   color: #010101;
-  background-color: #FF5722;
+  background-color: #ff6c40;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s;

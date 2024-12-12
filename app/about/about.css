@@ -50,15 +50,15 @@ body {
 }
 
 .about-page h1 {
-    font-size: 2.5rem; 
+    font-size: 1.8rem; 
     margin-bottom: 20px;
     color: #010101;
-    border-bottom: 3px solid #FF5722;
+    border-bottom: 2px solid #FF5722;
     display: inline-block;
 }
 
 .bio-texto {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     line-height: 1.8;
     text-align: left; 
     color: #010101;
@@ -70,7 +70,6 @@ body {
     display: inline-block; 
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: bold;
     color: #010101; 
     background-color: #FF5722; 
     padding: 10px 20px;

@@ -10,10 +10,10 @@
 }
   
 .contact-page h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     color: #010101;
-    border-bottom: 3px solid #FF5722;
+    border-bottom: 2px solid #FF5722;
 }
   
 .contact-item {
@@ -29,20 +29,16 @@
     justify-content: center;
     gap: 5px;
     padding: 10px 40px;
-    font-size: 1rem;
-    font-weight: bold;
     color: white;
     border-radius: 15px;
     transition: all 0.3s ease;
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
 }
   
 .icon-button:hover {
     transform: scale(1.1);
-    background: linear-gradient(135deg, #fad0c4, #fbc2eb, #a18cd1);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
   

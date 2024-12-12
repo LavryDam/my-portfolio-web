@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #ff9a8b, #ff6f61, #ff8c42, #f6d365);
+    background: linear-gradient(to top, #ffd6cc, #ffc4b3, #ffddb0, #fbebd2);
     min-height: 100vh;
     scroll-snap-align: start;
     display: flex;

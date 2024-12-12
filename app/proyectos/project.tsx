@@ -36,26 +36,6 @@ function ProyectosPage() {
                         Ver en GitHub
                     </Link>
                 </div>
-                <div className="tarjeta-proyecto">
-                    <h3 className="titulo-proyecto">App Rastreador de Gastos</h3>
-                    <Image
-                        src="/docs/libroRecetas.jpg"
-                        width={310}
-                        height={200}
-                        alt="Picture of the author"
-                    />
-                    <p className="detalle-proyecto">
-                        Una herramienta útil para gestionar tus finanzas personales, llevar un registro de tus ingresos y gastos, y planificar mejor tu presupuesto.
-                        
-                    </p>
-                    <Link
-                        href="#"
-                        target="_blank"
-                        className="enlace-proyecto"
-                    >
-                        Ver Demo
-                    </Link>
-                </div>
             </div>
         </section>
     );
