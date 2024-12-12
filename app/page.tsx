@@ -7,9 +7,10 @@ import Projects from "./proyectos/project";
 export default function HomePage() {
   return(
     <>
-      <div className="image-container">
-        <h1 className="overlay-text">La creatividad y la tecnología se encuentran aquí</h1>
-      </div>
+    <div className="content-container">
+      <div className="image-container"></div>
+        <h1 className="overlay-text">HOLA, soy Dina Martinez Ruiz desarrolladora web móvil</h1>
+    </div>
       <Link href="#about" className="arrow-link">
         <div className="arrow"/>
       </Link>
