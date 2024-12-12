@@ -25,9 +25,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ocupa la mayor parte de la pantalla */
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
     text-align: center;
     position: relative;
+    background-image: url('/images/sunset-dinamic.gif'); /* Ruta al GIF */
+    background-size: cover; /* Asegura que el GIF cubra todo el contenedor */
+    background-position: center; /* Centra el GIF en el contenedor */
+    background-repeat: no-repeat; /* Evita que el GIF se repita */
 }
 
 .overlay-text {
@@ -42,31 +47,6 @@ body {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     z-index: 10;
     position: relative;
-}
-
-.arrow-link {
-    margin-top: -160px; /* Espacio entre la frase y la flecha */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-}
-
-.arrow {
-    width: 40px;
-    height: 40px;
-    border-left: 1.5px solid #010101;
-    border-bottom: 1.5px solid #010101;
-    transform: rotate(-45deg);
-    transition: transform 0.3s ease, margin-top 0.3s ease;
-}
-
-/* Animación al hacer hover */
-.arrow-link:hover .arrow {
-    transform: rotate(-45deg) translateY(5px); /* Movimiento hacia abajo */
-    margin-top: 10px;
 }
 
 /* Ajuste del diseño responsivo */
