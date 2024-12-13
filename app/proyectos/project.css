@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 100px;
+  padding: 65px;
   margin: 50px auto;
 }
 
@@ -18,9 +18,9 @@
 
 .tarjeta-proyecto img {
   border-radius: 15px; 
-  width: 100%; /* Asegura que la imagen se ajuste al contenedor */
-  height: auto; /* Mantiene las proporciones */
-  object-fit: cover; /* Recorta la imagen si es necesario para mantener la proporción */
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
 }
 
 .contenedor-proyectos {
@@ -62,7 +62,7 @@
   padding: 14px 18px;
   font-size: 1rem;
   color: #010101;
-  background-color: #f76d43;
+  background-color: #FF5722;
   border-radius: 16px;
   text-decoration: none;
   transition: background-color 0.3s;

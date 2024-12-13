@@ -11,13 +11,14 @@ export default function HomePage() {
         <div className="image-container"></div>
         <div className="text">
           <h1 className="overlay-text">
-            ¡HOLA! soy <span className="highlight">Dina Martinez Ruiz</span> desarrolladora web y móvil.
+            Hola, me llamo <span className="highlight">Dina Martinez Ruiz.</span><br/>
+            <span className="small-text">Soy apasionada por el desarrollo de aplicaciones web y móviles que conectan. </span>
           </h1>
+          <Link href="#about" className="bottom-link">
+           <div className="bottom">Saber más</div>
+          </Link>
         </div>
       </div>
-      <Link href="#about" className="arrow-link">
-        <div className="arrow"/>
-      </Link>
       <div id="about">
         <About/>
       </div>

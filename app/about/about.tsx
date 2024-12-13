@@ -29,9 +29,9 @@ function aboutPage(){
                 <div className="about-page">
                     <h1>Mi historia</h1>
                     <p className="bio-texto">
-                    Soy Dina Martinez Ruiz, desarrolladora de software con un enfoque en crear soluciones innovadoras. 
-                    Con experiencia en React y React Native, he trabajado en proyectos multiplataforma que abarcan Android e iOS. 
-                    Siempre en búsqueda de nuevas tecnologías, actualmente estoy profundizando en Next.js para estar a la vanguardia del desarrollo web y móvil.  
+                        Soy desarrolladora de software con experiencia en React y React Native, especializada en crear aplicaciones multiplataforma para Android e iOS.  
+                        Me apasiona diseñar soluciones eficientes y adaptadas a las necesidades de cada proyecto.  
+                        Actualmente, estoy ampliando mis conocimientos en Next.js para seguir innovando en el desarrollo web y móvil.  
                     </p>
                     <Link href="docs/CV DINA MARTINEZ RUIZ.pdf" target="_blank" download className="enlace-cv">Descargar CV</Link>
                 </div>
