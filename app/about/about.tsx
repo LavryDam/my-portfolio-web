@@ -9,9 +9,6 @@ function aboutPage(){
     return (
         <>
             <div className="contenedor-about">
-                <div className="img-dina">
-                    
-                </div>
                 <div className="timeline">
                     <div className="timeline-item">
                         <span className="date">2024</span>
