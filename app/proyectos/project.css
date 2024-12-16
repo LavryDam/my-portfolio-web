@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 65px;
+  padding: 50px;
   margin: 50px auto;
 }
 
@@ -18,25 +18,20 @@
 
 .tarjeta-proyecto img {
   border-radius: 15px; 
-  width: 100%; 
-  height: auto; 
-  object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 .contenedor-proyectos {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+
 }
 
 .tarjeta-proyecto {
   background-color: rgba(255, 255, 255, 0.352);
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 350px;
-  padding: 35px;
-  text-align: justify;
+  max-width: 500px;
+  padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 

@@ -12,13 +12,13 @@ function ProyectosPage() {
             <h2>Mis Proyectos</h2>
             <div className="contenedor-proyectos">
                 <div className="tarjeta-proyecto">
-                    <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
                     <Image
                         src="/images/libroRecetas.jpg"
-                        width={280}
-                        height={150}
+                        width={290}
+                        height={190}
                         alt="Picture of the author"
                     />
+                    <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
                     <p className="detalle-proyecto">
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
                     </p>

@@ -11,7 +11,7 @@ export default function HomePage() {
         <div className="image-container"></div>
         <div className="text">
           <h1 className="overlay-text">
-            Hola, soy <span className="highlight">Dina Martinez Ruiz.</span><br/>
+            Hola, soy <span className="highlight">Dina.</span><br/>
             <span className="small-text">Una apasionada por el desarrollo de aplicaciones web y móviles que conectan. </span>
           </h1>
           <Link href="#about" className="bottom-link">
