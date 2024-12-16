@@ -59,14 +59,15 @@ body {
 .bottom-link {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.05rem; /* Tamaño de texto más visible */
-    color: #010101; /* Texto blanco */
-    background-color: #FF5722; /* Color destacado */
-    padding: 14px 18px; /* Espaciado cómodo */
-    border-radius: 16px; /* Bordes redondeados */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones suaves */
-    margin-top: 20px; /* Espacio entre el texto y el botón */
-    text-align: center; /* Asegura que el texto esté centrado */
+    font-size: 1rem;
+    color: #010101; 
+    background-color: #ff6e42;
+    padding: 14px 18px; 
+    border-radius: 16px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .bottom-link:hover {

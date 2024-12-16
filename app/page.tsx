@@ -15,7 +15,7 @@ export default function HomePage() {
             <span className="small-text">Una apasionada por el desarrollo de aplicaciones web y móviles que conectan. </span>
           </h1>
           <Link href="#about" className="bottom-link">
-           <div className="bottom">Saber más</div>
+           <div className="bottom">Conocer más</div>
           </Link>
         </div>
       </div>

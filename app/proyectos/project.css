@@ -57,10 +57,11 @@
   padding: 14px 18px;
   font-size: 1rem;
   color: #010101;
-  background-color: #FF5722;
+  background-color: #ff6e42;
   border-radius: 16px;
   text-decoration: none;
   transition: background-color 0.3s;
+  font-weight: bold;
 }
 
 .enlace-proyecto:hover {
