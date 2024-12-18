@@ -71,8 +71,8 @@ body {
 }
 
 .bottom-link:hover {
-    background-color: #FF5722; /* Cambia de color al pasar el cursor */
-    transform: translateY(-3px); /* Levanta ligeramente el botón */
+    background-color: #FF5722; 
+    transform: translateY(-3px);
 }
 
 .text {
@@ -81,10 +81,28 @@ body {
     align-items: center;
 }
 
-/* Ajuste del diseño responsivo */
 @media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        gap: 10px; 
+        width: 90%; 
+        flex-wrap: wrap;
+    }
+
+    .image-container {
+        margin-top: 100px; 
+        height: 350px;
+        max-width: 68%;
+    }
+
     .overlay-text {
-        font-size: 1.5rem;
-        padding: 15px 20px;
+        font-size: 1.5rem; 
+        padding: 15px 20px; 
+        margin-top: 20px; 
+    }
+
+    .bottom-link {
+        font-size: 0.9rem; 
+        padding: 10px 14px; 
     }
 }
