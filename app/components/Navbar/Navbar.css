@@ -39,3 +39,33 @@ nav ul.navegacion li {
     color: #ff6f61;
     transform: scale(1.1); 
 }
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+      padding: 15px 20px;
+    }
+  
+    nav ul.navegacion {
+      flex-direction: column; /* Cambia a diseño vertical */
+      gap: 10px; /* Ajusta el espacio entre elementos */
+    }
+  
+    nav ul.navegacion.active {
+      display: flex; /* Muestra el menú al activarlo */
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(to right, #ffcc70, #f6d365);
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      z-index: 1000;
+    }
+  
+    .hamburger-button {
+      display: flex; /* Muestra el botón hamburguesa en móvil */
+    }
+  }

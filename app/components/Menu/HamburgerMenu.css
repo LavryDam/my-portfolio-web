@@ -1,7 +1,5 @@
 .hamburger-menu {
-    position: relative;
-    margin-left: 30px;
-    margin-top: 1px;
+  display: none;
 }
 
 /* Botón Hamburguesa */
@@ -40,14 +38,21 @@
 
 /* Menú Desplegable */
 .menu-content {
-    position: absolute;
-    top: 40px;
-    right: 0;
+    position: fixed; /* Fijo al viewport para mantenerlo visible al desplazarse */
+    top: 0;
+    left: -100%; /* Oculto fuera del viewport inicialmente */
+    width: 30%;
     background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.menu-content.open {
+    left: 0; /* Mueve el menú al viewport */
+    opacity: 1;
+    visibility: visible;
 }
 
 .menu-item {
@@ -62,3 +67,10 @@
 .menu-item:hover {
     background-color: #f0f0f0;
 }
+
+/* Mostrar en pantallas móviles */
+@media (max-width: 768px) {
+    .hamburger-menu {
+      display: block; /* Visible solo en móvil */
+    }
+  }
