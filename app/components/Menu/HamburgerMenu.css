@@ -1,13 +1,18 @@
 .hamburger-menu {
-  display: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 50px; 
+    z-index: 2000;
 }
 
-/* Botón Hamburguesa */
 .hamburger-button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 20px;
+    width: 30px;
     height: 25px;
     background: none;
     border: none;
@@ -19,7 +24,7 @@
 .line {
     width: 30px;
     height: 3px;
-    background-color: #2c3e50;
+    background-color: #010101;
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -36,21 +41,21 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Menú Desplegable */
 .menu-content {
-    position: fixed; /* Fijo al viewport para mantenerlo visible al desplazarse */
-    top: 0;
-    left: -100%; /* Oculto fuera del viewport inicialmente */
-    width: 30%;
+    position: fixed; /* Fijo al viewport */
+    top: 65px;
+    right: 50px;
+    width: 200px;
     background: #fff;
     box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
     opacity: 0;
+    transform: translateY(-10px);
     transition: all 0.3s ease;
+    visibility: hidden;
 }
 
 .menu-content.open {
-    left: 0; /* Mueve el menú al viewport */
     opacity: 1;
     visibility: visible;
 }
@@ -68,9 +73,8 @@
     background-color: #f0f0f0;
 }
 
-/* Mostrar en pantallas móviles */
 @media (max-width: 768px) {
     .hamburger-menu {
-      display: block; /* Visible solo en móvil */
+      display: block;
     }
-  }
+}

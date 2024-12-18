@@ -17,7 +17,6 @@ function ProyectosPage() {
                         width={290}
                         height={190}
                         alt="Picture of the author"
-                        layout="responsive"
                     />
                     <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
                     <p className="detalle-proyecto">
