@@ -85,14 +85,14 @@ body {
     .content-container {
         flex-direction: column;
         gap: 10px; 
-        width: 90%; 
+        width: 120%; 
         flex-wrap: wrap;
     }
 
     .image-container {
         margin-top: 100px; 
         height: 350px;
-        max-width: 68%;
+        max-width: 70%;
     }
 
     .overlay-text {
