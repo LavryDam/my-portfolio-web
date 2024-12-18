@@ -71,9 +71,26 @@
 }
   
 @media (max-width: 768px) {
+    .contact-page {
+        padding: 50px 15px; 
+        margin: 30px auto;
+    }
+
+    .contact-page h1 {
+        font-size: 1.5rem;
+    }
+
     .contact-item {
-      flex-direction: column;
-      gap: 15px;
+        gap: 10px;
+    }
+
+    .icon-button {
+        padding: 10px;
+        font-size: 0.8rem; 
+    }
+
+    .icon-button span {
+        font-size: 0.8rem; 
     }
 }
   

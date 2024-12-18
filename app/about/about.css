@@ -116,21 +116,21 @@ body {
 
     .timeline {
         position: relative;
-        margin-top: 0; /* Ajusta la separación superior */
-        padding-left: 6px; /* Da espacio al contenido */
+        margin-top: 0;
+        padding-left: 6px;
         max-width: 300px;
     }
 
     .timeline-item {
-        padding: 8px 8px; /* Ajusta el espacio interno */
+        padding: 8px 8px;
     }
 
     .timeline-item::before {
         content: '';
         position: absolute;
-        left: -12px; /* Ajusta la posición del círculo */
+        left: -12px; 
         top: 12px;
-        width: 12px; /* Reduce el tamaño del círculo */
+        width: 12px; 
         height: 12px;
         background-color: #FF5722;
         border-radius: 50%;
@@ -138,8 +138,8 @@ body {
 
     .date {
         font-weight: bold;
-        font-size: 1rem; /* Más legible en pantallas pequeñas */
+        font-size: 1rem; 
         color: #010101;
-        margin-bottom: 8px; /* Espacio ajustado */
+        margin-bottom: 8px;
     }
 }
