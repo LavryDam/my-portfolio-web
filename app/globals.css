@@ -82,6 +82,15 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .text {
+        margin-left: 27px;
+    }
+
     .content-container {
         flex-direction: column;
         gap: 10px; 
