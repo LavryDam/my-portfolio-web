@@ -6,22 +6,23 @@ import Link from "next/link";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false); // Controla si el menú está abierto
-  const menuRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null); //useRef crea una referencia al contenedor del menú (menuRef), 
+  //que apunta al elemento HTML correspondiente.
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Cambia el estado del menú
+    setIsOpen(!isOpen); // Cambia el estado del menú despegable
   };
 
   // Cierra el menú al hacer clic fuera
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setIsOpen(false); // Cierra el menú si se hace clic fuera
+        setIsOpen(false);
       }
     };
-
+    //evento global
     document.addEventListener("mousedown", handleClickOutside);
-    return () => {
+    return () => { //Limpia el evento al desmontar el componente para evitar fugas de memoria
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
@@ -30,9 +31,9 @@ const HamburgerMenu = () => {
     <div className="hamburger-menu" ref={menuRef}>
       {/* Botón Hamburguesa */}
       <button
-        className={`hamburger-button ${isOpen ? "open" : ""}`}
+        className={`hamburger-button ${isOpen ? "open" : ""}`} //Agrega la clase "open" si el menú está abierto
         onClick={toggleMenu}
-        aria-label="Toggle menu"
+        aria-label="Toggle menu" //Mejora la accesibilidad describiendo el propósito del botón.
       >
         <span className="line"></span>
         <span className="line"></span>
