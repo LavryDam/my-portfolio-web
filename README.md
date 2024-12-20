@@ -25,23 +25,22 @@ SEO optimizado para mejorar la visibilidad en buscadores.
 Sigue estos pasos para ejecutar el proyecto localmente:
 
 Clona el repositorio:
-
 bash
 Copiar código
-git clone https://github.com/tu-usuario/tu-repositorio.git
-Instala las dependencias:
+git clone https://github.com/LavryDam/my-portfolio-web.git
 
+Instala las dependencias:
 bash
 Copiar código
 npm install
-Inicia el servidor de desarrollo:
 
+Inicia el servidor de desarrollo:
 bash
 Copiar código
 npm run dev
+
 Abre en tu navegador:
 Ve a http://localhost:3000.
-
 
 📧 Contacto
 Si tienes preguntas o deseas colaborar, no dudes en contactarme:
