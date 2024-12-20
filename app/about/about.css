@@ -84,7 +84,8 @@ body {
     align-items: center; 
     justify-content: center;
     gap: 120px;
-    margin: 130px auto;
+    margin-top: 120px;
+    margin-bottom: 15px;
     max-width: 900px;
 }
 

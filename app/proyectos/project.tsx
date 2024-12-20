@@ -9,7 +9,7 @@ export const metadata = {
 function ProyectosPage() {
     return (
         <section className="proyectos" id="proyectos">
-            <h2>Mis Proyectos</h2>
+            <h1>Mis Proyectos</h1>
             <div className="contenedor-proyectos">
                 <div className="tarjeta-proyecto">
                     <Image
