@@ -9,6 +9,7 @@ Este portfolio está construido con las siguientes tecnologías:
 Next.js: Framework de React para aplicaciones modernas.
 TypeScript: Para tipado estático y mayor escalabilidad.
 CSS Modules: Estilos encapsulados para cada componente.
+Vercel: Hospedaje rápido y optimizado para Next.js
 
 ✨ Características
 
@@ -41,6 +42,9 @@ npm run dev
 
 Abre en tu navegador:
 Ve a http://localhost:3000.
+
+🌐 Demo en Vivo
+El portfolio está desplegado en Vercel: https://my-portfolio-web-delta-six.vercel.app/#inicio
 
 📧 Contacto
 Si tienes preguntas o deseas colaborar, no dudes en contactarme:
