@@ -47,8 +47,15 @@ nav ul.navegacion li {
 
 @media (max-width: 768px) {
     .navbar {
-      display: none;
+      background: rgba(255, 204, 112, 0.85);
+      padding: 15px 20px;
+      width: 85%;
+      border-radius: 1;
     }
+
+    nav ul.navegacion {
+      display: none;
+  }
     
     .hamburger-menu {
       display: flex;
