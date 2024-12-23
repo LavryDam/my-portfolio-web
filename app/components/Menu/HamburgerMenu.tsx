@@ -28,29 +28,32 @@ const HamburgerMenu = () => {
   }, []);
 
   return (
-    <div className="hamburger-menu" ref={menuRef}>
-      <button
-        className={`hamburger-button ${isOpen ? "open" : ""}`} //Agrega la clase "open" si el menú está abierto 
-        onClick={toggleMenu}
-        aria-label="Toggle menu" //Mejora la accesibilidad describiendo el propósito del botón.
-      >
-        <span className="line"></span>
-        <span className="line"></span>
-        <span className="line"></span>
-      </button>
-      <div className={`menu-content ${isOpen ? "open" : ""}`}> 
-        <Link href="#inicio" className="menu-item" onClick={() => setIsOpen(false)}>{/*Cierra el menú despegable al hacer clic en un enlace*/}
-          Inicio
-        </Link>
-        <Link href="#about" className="menu-item" onClick={() => setIsOpen(false)}>
-          Sobre mí
-        </Link>
-        <Link href="#proyects" className="menu-item" onClick={() => setIsOpen(false)}>
-          Proyectos
-        </Link>
-        <Link href="#contact" className="menu-item" onClick={() => setIsOpen(false)}>
-          Contacto
-        </Link>
+    <div className="hamburger-container">
+      <div className="text-hamburger">Dina M. Ruiz</div>
+      <div className="hamburger-menu" ref={menuRef}>
+        <button
+          className={`hamburger-button ${isOpen ? "open" : ""}`} //Agrega la clase "open" si el menú está abierto 
+          onClick={toggleMenu}
+          aria-label="Toggle menu" //Mejora la accesibilidad describiendo el propósito del botón.
+        >
+          <span className="line"></span>
+          <span className="line"></span>
+          <span className="line"></span>
+        </button>
+        <div className={`menu-content ${isOpen ? "open" : ""}`}> 
+          <Link href="#inicio" className="menu-item" onClick={() => setIsOpen(false)}>{/*Cierra el menú despegable al hacer clic en un enlace*/}
+            Inicio
+          </Link>
+          <Link href="#about" className="menu-item" onClick={() => setIsOpen(false)}>
+            Sobre mí
+          </Link>
+          <Link href="#proyects" className="menu-item" onClick={() => setIsOpen(false)}>
+            Proyectos
+          </Link>
+          <Link href="#contact" className="menu-item" onClick={() => setIsOpen(false)}>
+            Contacto
+          </Link>
+        </div>
       </div>
     </div>
   );

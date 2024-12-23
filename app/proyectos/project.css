@@ -93,10 +93,12 @@
 @media (max-width: 768px) {
   .proyectos {
     padding: 10px 30px;
+    margin-top: 85px;
   }
 
   .contenedor-proyectos {
-    gap: 10px; 
+    gap: 20px; 
+    flex-direction: column;
   }
 
   .tarjeta-proyecto {

@@ -1,18 +1,35 @@
+.hamburger-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    z-index: 2000;
+}
+
 .hamburger-menu {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 18px;
+    top: 30px;
     right: 45px; 
     z-index: 2000;
 }
 
+.text {
+    font-size: 1.2rem;
+    color: #010101;
+    margin-left: 0; /* Alinea al extremo derecho */
+}
 .hamburger-button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
-    height: 25px;
+    height: 23px;
     background: none;
     border: none;
     cursor: pointer;
@@ -22,7 +39,7 @@
 
 .line {
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: #010101;
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -75,5 +92,10 @@
 @media (max-width: 768px) {
     .hamburger-menu {
       display: block;
+    }
+
+    .text-hamburger {
+        margin-left: 22px;
+        margin-top: -12px;
     }
 }
