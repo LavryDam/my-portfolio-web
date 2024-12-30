@@ -69,11 +69,15 @@
     opacity: 0;
     transform: translateY(-10px);
     transition: all 0.3s ease;
+    visibility: hidden; /* Oculta visualmente el contenido */
+    pointer-events: none; /* Deshabilita la interacción */
 }
 
 .menu-content.open {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto; /* Habilita la interacción */
+    transform: translateY(0); /* Resetea el movimiento */
 }
 
 .menu-item {
