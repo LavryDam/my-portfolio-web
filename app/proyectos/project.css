@@ -24,6 +24,7 @@
 .contenedor-proyectos {
   display: flex;
   gap: 35px;
+  flex-direction: column;
 }
 
 .tarjeta-proyecto {
@@ -49,7 +50,7 @@
 .detalle-proyecto-app {
   font-size: 1rem;
   color: #010101;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .detalle-proyecto {

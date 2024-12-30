@@ -38,7 +38,7 @@ function ProyectosPage() {
                 </div>
                 <div className="tarjeta-proyecto">
                     <Image
-                        src="/images/libroRecetas.jpg"
+                        src="/images/PWDINA.png"
                         width={290}
                         height={190}
                         alt="Picture of the author"
