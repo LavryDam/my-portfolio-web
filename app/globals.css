@@ -39,7 +39,22 @@ body {
     background-size: cover;
     border-radius: 5%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    animation: moveBackground 30s ease-in-out infinite; /* Movimiento suave */
 }
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
 
 .overlay-text {
     color: #010101;
