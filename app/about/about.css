@@ -90,7 +90,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .about-page {
         margin: 30px;
         padding: 25px;

@@ -45,7 +45,7 @@ nav ul.navegacion li {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     .navbar {
       background: rgba(255, 204, 112, 0.85);
       padding: 15px 20px;

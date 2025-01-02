@@ -96,7 +96,7 @@ body {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1068px) {
 
     html, body {
         overflow-x: hidden;
