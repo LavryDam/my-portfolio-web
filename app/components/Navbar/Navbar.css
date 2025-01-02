@@ -45,20 +45,21 @@ nav ul.navegacion li {
   display: none;
 }
 
-@media (max-width: 668px) {
-    .navbar {
-      background: rgba(255, 204, 112, 0.85);
-      padding: 15px 20px;
-      width: 85%;
-      border-radius: 1;
-      margin-top: 12px;
-    }
+@media (max-width: 768px) {
+  .navbar {
+    background: rgba(255, 204, 112, 0.85);
+    padding: 15px 20px;
+    width: 85%;
+    border-radius: 1;
+    margin-top: 12px;
+    position: fixed;
+  }
 
-    nav ul.navegacion {
-      display: none;
+  nav ul.navegacion {
+    display: none;
   }
-    
-    .hamburger-menu {
-      display: flex;
-    }
+  
+  .hamburger-menu {
+    display: flex;
   }
+}

@@ -19,11 +19,10 @@
     z-index: 2000;
 }
 
-.text {
-    font-size: 1.2rem;
-    color: #010101;
-    margin-left: 0; /* Alinea al extremo derecho */
+.text-hamburger {
+    display: none;
 }
+
 .hamburger-button {
     display: flex;
     flex-direction: column;
@@ -94,12 +93,10 @@
 }
 
 @media (max-width: 768px) {
-    .hamburger-menu {
-      display: block;
-    }
-
+    
     .text-hamburger {
         margin-left: 22px;
         margin-top: -12px;
+        display: block;
     }
 }
