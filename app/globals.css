@@ -130,3 +130,40 @@ body {
         padding: 10px 14px; 
     }
 }
+
+@media (min-width: 2560px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .text {
+        margin-left: 20px; 
+    }
+
+    .small-text {
+        font-size: 3rem; 
+    }
+
+    .content-container {
+        gap: 100px;
+        width: 80%;
+        flex-wrap: nowrap; 
+    }
+
+    .image-container {
+        margin-top: 250px;
+        height: 1200px;
+        width: 1200px;
+    }
+
+    .overlay-text {
+        font-size: 5rem;
+        padding: 50px 50px;
+        margin-top: 150px; 
+    }
+
+    .bottom-link {
+        font-size: 3rem;
+        padding: 30px 40px;
+    }
+}
