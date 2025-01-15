@@ -133,6 +133,13 @@
     border-radius: 30px; 
   }
 
+  .tarjeta-proyecto img {
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    width: 85%;
+    height: 45%;
+  }
+
   .titulo-proyecto {
     font-size: 3.8rem;
   }

@@ -167,8 +167,9 @@ body {
     }
 
     .contenedor-about {
-        flex-direction: row;
-        gap: 100px;
+        display: flow-root;
+        margin-top: 200px;
+        margin-bottom: 50px;
     }
 
     .timeline {

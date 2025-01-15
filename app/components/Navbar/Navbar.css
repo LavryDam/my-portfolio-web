@@ -72,8 +72,6 @@ nav ul.navegacion li {
 }
 
 @media (min-width: 2560px) {
-    .navbar {
-        padding: 40px 70px;
-        width: 85%;
-    }
+  
+
 }

@@ -92,4 +92,33 @@
         font-size: 0.8rem; 
     }
 }
-  
+
+@media (min-width: 2560px) {
+    .contact-page {
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    .contact-page h1 {
+        font-size: 5rem;
+        margin-bottom: 40px;
+    }
+
+    .contact-item {
+        gap: 40px;
+    }
+
+    .icon-button {
+        padding: 40px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .icon-button:hover {
+        transform: scale(1.2);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .icon-button span {
+        font-size: 1.2rem;
+    }
+}

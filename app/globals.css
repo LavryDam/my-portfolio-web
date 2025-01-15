@@ -146,24 +146,24 @@ body {
 
     .content-container {
         gap: 100px;
-        width: 80%;
         flex-wrap: nowrap; 
     }
 
     .image-container {
-        margin-top: 250px;
+        margin-top: 200px;
+        margin-bottom: 50px;
         height: 1200px;
         width: 1200px;
     }
 
     .overlay-text {
         font-size: 5rem;
-        padding: 50px 50px;
+        padding: 40px 30px;
         margin-top: 150px; 
     }
 
     .bottom-link {
-        font-size: 3rem;
-        padding: 30px 40px;
+        font-size: 2rem;
+        padding: 16px 24px;
     }
 }
