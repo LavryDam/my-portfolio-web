@@ -71,7 +71,7 @@ nav ul.navegacion li {
   }
 }
 /* pantallas 4k */
-@media (min-width: 1440px) {
+@media (min-width: 2028px) {
   .navbar {
     padding: 50px 80px;
     max-width: 1500px; 
