@@ -63,15 +63,30 @@ nav ul.navegacion li {
     display: flex;
   }
 }
-
-@media (max-width: 1068px) {
-    .navbar {
-        padding: 15px 20px;
-        width: 90%;
-    }
+/* tablet s*/
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 15px 20px;
+    width: 90%;
+  }
 }
+/* pantallas 4k */
+@media (min-width: 1440px) {
+  .navbar {
+    padding: 50px 80px;
+    max-width: 1500px; 
+    margin-top: 20px;
+  }
 
-@media (min-width: 2560px) {
-  
+  nav ul.navegacion {
+    gap: 50px; 
+  }
 
+  nav ul.navegacion li {
+      margin: 0 25px;
+  }
+
+  .nav-link {
+      font-size: 3rem;
+  }
 }

@@ -96,15 +96,7 @@ body {
     align-items: center;
 }
 
-@media (max-width: 1068px) {
-
-    html, body {
-        overflow-x: hidden;
-    }
-
-    .text {
-        margin-left: 12px;
-    }
+@media (max-width: 1024px) {
 
     .content-container {
         flex-direction: column;
@@ -131,26 +123,19 @@ body {
     }
 }
 
-@media (min-width: 2560px) {
-    html, body {
-        overflow-x: hidden;
-    }
-
-    .text {
-        margin-left: 20px; 
-    }
-
+@media (min-width: 1440px) {
+    
     .small-text {
         font-size: 3rem; 
     }
 
     .content-container {
-        gap: 100px;
+        gap: 265px;
         flex-wrap: nowrap; 
     }
 
     .image-container {
-        margin-top: 200px;
+        margin-top: 300px;
         margin-bottom: 50px;
         height: 1200px;
         width: 1200px;
