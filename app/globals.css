@@ -96,24 +96,22 @@ body {
     align-items: center;
 }
 
-@media (max-width: 1024px) {
-
+@media (max-width: 758px) {
+    
     .content-container {
-        flex-direction: column;
-        gap: 10px; 
-        width: 120%; 
+        width: 90%; 
         flex-wrap: wrap;
     }
 
     .image-container {
         margin-top: 104px;
         height: 380px;
-        max-width: 68%;
+        max-width: 89%;
     }
 
     .overlay-text {
         font-size: 1.5rem; 
-        padding: 15px 20px; 
+        padding: 10px 20px; 
         margin-top: 20px; 
     }
 
@@ -121,6 +119,7 @@ body {
         font-size: 0.9rem; 
         padding: 10px 14px; 
     }
+
 }
 
 @media (min-width: 2028px) {
