@@ -70,9 +70,10 @@
 }
   
 @media (max-width: 768px) {
+
     .contact-page {
         padding: 50px 15px; 
-        margin: 30px auto;
+        margin-bottom: 25px;
     }
 
     .contact-page h1 {
@@ -95,7 +96,6 @@
 
 @media (min-width: 2560px) {
     .contact-page {
-        margin-top: 200px;
         margin-bottom: 50px;
     }
 

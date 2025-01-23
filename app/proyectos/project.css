@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 145px;
+  margin-top: 135px;
   margin-bottom: 15px;
 }
 
@@ -32,7 +32,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 500px;
-  padding: 20px;
+  padding: 30px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -93,8 +93,12 @@
 
 @media (max-width: 768px) {
   .proyectos {
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 85px;
+  }
+
+  .detalle-proyecto-app {
+    padding: 0px 12px;
   }
 
   .contenedor-proyectos {
@@ -102,15 +106,15 @@
     flex-direction: column;
   }
 
-  .tarjeta-proyecto {
-    padding: 10px;
+  .detalle-proyecto{
+    padding: 0px 12px;
   }
 }
 
 @media (min-width: 2560px) {
 
   .proyectos {
-    margin-top: 200px;
+    margin-top: 260px;
     margin-bottom: 50px;
   }
 
