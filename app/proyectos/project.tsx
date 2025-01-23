@@ -13,7 +13,7 @@ function ProyectosPage() {
             <div className="contenedor-proyectos">
                 <div className="tarjeta-proyecto">
                     <Image
-                        src="/images/libroRecetas.jpg"
+                        src="/images/libroRecetas.webp"
                         width={290}
                         height={190}
                         alt="Picture of the author"
@@ -38,7 +38,7 @@ function ProyectosPage() {
                 </div>
                 <div className="tarjeta-proyecto">
                     <Image
-                        src="/images/portfolio-dina.png"
+                        src="/images/PWDINA.webp"
                         width={290}
                         height={190}
                         alt="Picture of the author"

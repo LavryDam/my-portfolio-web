@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="text">
           <h1 className="overlay-text">
             Hola, soy <span className="highlight">Dina.</span><br/>
-            <span className="small-text">Una apasionada por el desarrollo de aplicaciones web y móviles que conectan. </span>
+            <span className="small-text">Una apasionada por el desarrollo de aplicaciones que conectan personas e ideas. </span>
           </h1>
           <Link href="#about" className="bottom-link">
            <div className="bottom">Conocer más</div>
