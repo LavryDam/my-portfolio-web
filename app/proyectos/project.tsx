@@ -14,8 +14,8 @@ function ProyectosPage() {
                 <div className="tarjeta-proyecto">
                     <Image
                         src="/images/libroRecetas.webp"
-                        width={290}
-                        height={190}
+                        width={640}
+                        height={359}
                         alt="Proyecto de kotlin para gestionar recetas "
                         priority
                     />
@@ -40,8 +40,8 @@ function ProyectosPage() {
                 <div className="tarjeta-proyecto">
                     <Image
                         src="/images/PWDINA.webp"
-                        width={290}
-                        height={190}
+                        width={640}
+                        height={359}
                         alt="Proyecto de Next.js para mi portafolio web"
                         priority
                     />

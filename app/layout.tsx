@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
+import GoogleAnalytics from "../app/GoogleAnalytics";
 
 export const metadata = {
   title: "Dina Martinez Ruiz | Desarrolladora Web y Móvil",
@@ -31,6 +32,7 @@ export default function RootLayout({children}:RootLayoutProps) {
         <meta name="twitter:image" content="/images/DinaAmsterdam.webp" />     
       </head>
       <body className={Fonts.className}>
+        <GoogleAnalytics />
         <Navbar/>
         {children}
       </body>
