@@ -11,9 +11,6 @@ importers:
       next:
         specifier: 15.0.3
         version: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
-      nextjs-google-analytics:
-        specifier: ^2.3.7
-        version: 2.3.7(next@15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
       react:
         specifier: 19.0.0-rc-66855b96-20241106
         version: 19.0.0-rc-66855b96-20241106
@@ -1175,12 +1172,6 @@ packages:
         optional: true
       sass:
         optional: true
-
-  nextjs-google-analytics@2.3.7:
-    resolution: {integrity: sha512-kuE5OcqmAg1qh9J6LskoDLybj8WmLyfxD+KsVGGvRe5zZg6bGQ/QM/1/7TdJq/u7hIeVqFqcloadD0pcosRXUw==}
-    peerDependencies:
-      next: '>=11.0.0'
-      react: '>=17.0.0'
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -2927,13 +2918,6 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
-
-  nextjs-google-analytics@2.3.7(next@15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106):
-    dependencies:
-      next: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
-      react: 19.0.0-rc-66855b96-20241106
-    optionalDependencies:
-      fsevents: 2.3.3
 
   normalize-path@3.0.0: {}
 
