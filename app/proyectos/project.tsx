@@ -16,7 +16,8 @@ function ProyectosPage() {
                         src="/images/libroRecetas.webp"
                         width={290}
                         height={190}
-                        alt="Picture of the author"
+                        alt="Proyecto de kotlin para gestionar recetas"
+                        priority
                     />
                     <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
                     <p className="detalle-proyecto-app">
@@ -41,7 +42,8 @@ function ProyectosPage() {
                         src="/images/PWDINA.webp"
                         width={290}
                         height={190}
-                        alt="Picture of the author"
+                        alt="Proyecto portfolio web Dina Martinez Ruiz"
+                        priority
                     />
                     <h3 className="titulo-proyecto">Portfolio web Dina Martinez Ruiz</h3>
                     <p className="detalle-proyecto">
