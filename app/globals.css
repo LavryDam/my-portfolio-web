@@ -8,9 +8,6 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden; /* Evita el scroll horizontal */
     overscroll-behavior: none; /* Evita el efecto de rebote en dispositivos táctiles */
-    touch-action: manipulation;
-    user-select: none;
-    pointer-events: auto;
 }
 
 body {
@@ -101,6 +98,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        height: -webkit-fill-available;
+    }
 }
 
 @media (max-width: 758px) {
