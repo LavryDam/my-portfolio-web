@@ -11,16 +11,16 @@ function aboutPage(){
             <div className="contenedor-about">
                 <div className="timeline">
                     <div className="timeline-item">
-                        <span className="date">2024</span>
-                        <p>Empecé a explorar tecnologías como Next.js</p>
+                        <span className="date">2022</span>
+                        <p>Finalicé Desarrollo de Aplicaciones Multiplataforma</p>
                     </div>
                     <div className="timeline-item">
                         <span className="date">2023</span>
                         <p>Prácticas en Ámsterdam desarrollando con React y React Native.</p>
                     </div>
                     <div className="timeline-item">
-                        <span className="date">2022</span>
-                        <p>Finalicé Desarrollo de Aplicaciones Multiplataforma.</p>
+                        <span className="date">2024</span>
+                        <p>Empecé a explorar tecnologías como Next.js</p>
                     </div>
                 </div>
                 <div className="about-page">
