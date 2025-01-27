@@ -41,7 +41,7 @@ function ProyectosPage() {
                 <div className="tarjeta-proyecto">
                     <Image
                         className="imagen-proyecto"
-                        src="/images/PWDINA.webp"
+                        src="/images/portfolio-web.webp"
                         width={300}
                         height={200}
                         alt="Proyecto de portfolio web Dina Martinez Ruiz"
