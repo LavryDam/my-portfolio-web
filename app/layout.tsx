@@ -23,7 +23,7 @@ export default function RootLayout({children}:RootLayoutProps) {
         <meta name="author" content="Dina Martinez Ruiz" />
         <meta property="og:title" content="Dina Martinez Ruiz | Desarrolladora Web y Móvil" />
         <meta property="og:description" content="Descubre mi portafolio como desarrolladora web y móvil con proyectos destacados y habilidades técnicas." />
-        <meta property="og:image" content="../images/portfolio-web.webp" />
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png"/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://portfolio-web-dina-martinez.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image"/>
@@ -31,7 +31,7 @@ export default function RootLayout({children}:RootLayoutProps) {
         <meta property="twitter:url" content="https://portfolio-web-dina-martinez.vercel.app/"/>
         <meta name="twitter:title" content="Dina Martinez Ruiz"/>
         <meta name="twitter:description" content="Portfolio web Dina Martinez Ruiz"/>
-        <meta name="twitter:image" content="../images/portfolio-web.webp"/>
+        <meta name="twitter:image" content="https://metatags.io/images/meta-tags.png"/>
       </head>
       <body className={Fonts.className}>
         <GoogleAnalytics />
