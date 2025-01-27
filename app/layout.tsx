@@ -25,7 +25,7 @@ export default function RootLayout({children}:RootLayoutProps) {
         <meta property="og:description" content="Descubre mi portafolio como desarrolladora web y móvil con proyectos destacados y habilidades técnicas." />
         <meta property="og:image" content="/images/DinaAmsterdam.webp" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://my-portfolio-web-delta-six.vercel.app/" />
+        <meta property="og:url" content="https://portfolio-web-dina-martinez.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Dina Martinez Ruiz | Desarrolladora Web y Móvil" />
         <meta name="twitter:description" content="Portafolio web de Dina Martinez Ruiz, especializada en desarrollo web y móvil con tecnologías modernas como React y Kotlin." />
