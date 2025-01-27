@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /admin
-Disallow: /private
 Sitemap: https://portfolio-web-dina-martinez.vercel.app/sitemap.xml

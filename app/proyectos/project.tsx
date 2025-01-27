@@ -13,13 +13,14 @@ function ProyectosPage() {
             <div className="contenedor-proyectos">
                 <div className="tarjeta-proyecto">
                     <Image
+                        className="imagen-proyecto"
                         src="/images/libroRecetas.webp"
-                        width={290}
-                        height={190}
+                        width={300}
+                        height={200}
                         alt="Proyecto de app de recetas saludables"
                         priority
                     />
-                    <h3 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h3>
+                    <h2 className="titulo-proyecto">App de Recetas Saludables y Personalizadas</h2>
                     <p className="detalle-proyecto-app">
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
                     </p>
@@ -39,13 +40,14 @@ function ProyectosPage() {
                 </div>
                 <div className="tarjeta-proyecto">
                     <Image
+                        className="imagen-proyecto"
                         src="/images/PWDINA.webp"
-                        width={290}
-                        height={190}
+                        width={300}
+                        height={200}
                         alt="Proyecto de portfolio web Dina Martinez Ruiz"
                         priority
                     />
-                    <h3 className="titulo-proyecto">Portfolio web Dina Martinez Ruiz</h3>
+                    <h2 className="titulo-proyecto">Portfolio web Dina Martinez Ruiz</h2>
                     <p className="detalle-proyecto">
                         Una web diseñada para destacar mis habilidades como programadora, 
                         incluyendo proyectos como una app de recetas saludables y personalizadas, 

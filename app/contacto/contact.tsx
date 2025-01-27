@@ -16,6 +16,7 @@ function contactoPage(){
                     href="https://www.linkedin.com/in/dina-martinez-ruiz19"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Visita mi perfil de LinkedIn"
                 >
                     <div className="icon-button linkedin">
                         <FaLinkedin size={30}/>
@@ -25,6 +26,7 @@ function contactoPage(){
                     href="https://github.com/LavryDam"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Visita mi perfil de GitHub"
                 >
                     <div className="icon-button github">
                         <FaGithub size={30}/>
@@ -33,6 +35,7 @@ function contactoPage(){
                 <Link
                     href="mailto:dinamartinezruiz@gmail.com"
                     target="_blank"
+                    aria-label="Envíame un correo electrónico"
                 >
                     <div className="icon-button email">
                         <HiOutlineMail size={30}/>

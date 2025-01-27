@@ -58,6 +58,13 @@
   padding: 0px 45px;
 }
 
+.imagen-proyecto {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .enlace-proyecto {
   display: inline-block;
   padding: 14px 18px;
