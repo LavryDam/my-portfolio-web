@@ -30,7 +30,7 @@ function aboutPage(){
                         Me apasiona diseñar soluciones eficientes y adaptadas a las necesidades de cada proyecto.  
                         Actualmente, estoy ampliando mis conocimientos en Next.js para seguir innovando en el desarrollo web y móvil.  
                     </p>
-                    <Link href="docs/CV DINA MARTINEZ RUIZ.pdf" target="_blank" download className="enlace-cv">Descargar CV</Link>
+                    <Link href="/docs/CV_DINA_MARTINEZ.pdf" target="_blank" download className="enlace-cv">Descargar CV</Link>
                 </div>
             </div>
         </>
