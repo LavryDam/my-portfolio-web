@@ -9,7 +9,7 @@ declare global {
 }
 import Script from "next/script";
 
-const GA_TRACKING_ID = "TU_ID_DE_SEGUIMIENTO"; // Reemplaza con tu ID de seguimiento
+const GA_TRACKING_ID = "GTM-53ZW7QGK"; // Reemplaza con tu ID de seguimiento
 
 export default function GoogleAnalytics() {
   useEffect(() => {
