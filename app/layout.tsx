@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
-import GoogleAnalytics from "../app/GoogleAnalytics";
+import Script from "next/script";
 
 export const metadata = {
   title: "Dina Martinez Ruiz | Desarrolladora Web y Móvil",
@@ -18,6 +18,15 @@ export default function RootLayout({children}:RootLayoutProps) {
   return (
     <html lang="es">  
       <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PNPEJXGWBK"></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PNPEJXGWBK');
+          `}
+        </Script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Dina Martinez Ruiz" />
@@ -34,7 +43,6 @@ export default function RootLayout({children}:RootLayoutProps) {
         <meta name="twitter:image" content="https://portfolio-web-dina-martinez.vercel.app/images/portfolio-web.webp"/>
       </head>
       <body className={Fonts.className}>
-        <GoogleAnalytics />
         <Navbar/>
         {children}
       </body>
