@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { ReactNode } from "react";
 import Fonts from "../fonts/Fonts";
 import Script from "next/script";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: "Dina Martinez Ruiz | Desarrolladora Web y Móvil",
@@ -45,6 +46,7 @@ export default function RootLayout({children}:RootLayoutProps) {
       <body className={Fonts.className}>
         <Navbar/>
         {children}
+        <Analytics/>
       </body>
     </html>
   );
