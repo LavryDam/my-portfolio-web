@@ -149,26 +149,24 @@ body {
 @media (min-width: 2028px) {
     
     .text {
-        width: 33%;
+        width: 90%;
     }
     .small-text {
         font-size: 3rem; 
     }
 
     .content-container {
-        gap: 265px;
+        gap: 100px;
         flex-wrap: nowrap; 
     }
 
     .image-container {
-        margin-top: 300px;
-        margin-bottom: 50px;
-        height: 1200px;
-        width: 1200px;
+        height: 700px;
+        width: 700px;
     }
 
     .overlay-text {
-        font-size: 5rem;
+        font-size: 4rem;
         padding: 40px 30px;
         margin-top: 150px; 
     }
