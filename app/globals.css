@@ -149,26 +149,26 @@ body {
 @media (min-width: 2028px) {
     
     .text {
-        width: 90%;
+        width: 50%;
     }
     .small-text {
         font-size: 3rem; 
     }
 
     .content-container {
-        gap: 100px;
         flex-wrap: nowrap; 
     }
 
     .image-container {
-        height: 700px;
-        width: 700px;
+        height: 650px;
+        width: 650px;
+        margin-top: 250px;;
     }
 
     .overlay-text {
-        font-size: 4rem;
-        padding: 40px 30px;
-        margin-top: 150px; 
+        font-size: 3rem;
+        padding: 40px 20px;
+        margin-top: 80px; 
     }
 
     .bottom-link {
