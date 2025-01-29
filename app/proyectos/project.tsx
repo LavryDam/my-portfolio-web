@@ -13,7 +13,7 @@ function ProyectosPage() {
             <div className="contenedor-proyectos">
                 <div className="tarjeta-proyecto">
                     <Image
-                        className="imagen-proyecto"
+                        className="imagen-proyecto-1"
                         src="/images/libroRecetas.webp"
                         width={300}
                         height={200}
@@ -40,7 +40,7 @@ function ProyectosPage() {
                 </div>
                 <div className="tarjeta-proyecto">
                     <Image
-                        className="imagen-proyecto"
+                        className="imagen-proyecto-2"
                         src="/images/portfolio-web.webp"
                         width={300}
                         height={200}

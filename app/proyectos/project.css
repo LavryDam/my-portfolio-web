@@ -125,12 +125,12 @@
 @media (min-width: 2560px) {
 
   .proyectos {
-    margin-top: 260px;
+    margin-top: 220px;
     margin-bottom: 50px;
   }
 
   .proyectos h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 5rem;
     text-align: center;
     color: #010101;
@@ -144,31 +144,42 @@
 
   .tarjeta-proyecto {
     max-width: 1000px;
-    padding: 30px;
+    padding: 50px 5px;
     border-radius: 30px; 
   }
 
   .tarjeta-proyecto img {
     border-radius: 15px;
-    margin-bottom: 1rem;
-    width: 85%;
-    height: 45%;
   }
 
+  .imagen-proyecto-1 {
+    width: 60%;
+    height: 50%;
+  }
+
+  .imagen-proyecto-2 {
+    width: 60%;
+    height: 50%;
+  } 
+
   .titulo-proyecto {
-    font-size: 3.8rem;
+    font-size: 2.5rem;
   }
 
   .detalle-proyecto, .detalle-proyecto-app {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    margin-top: 20px;
   }
 
   .enlace-proyecto {
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding: 18px 24px;
+    margin-top: 15px;
+    margin-bottom: 40px;
   }
 
   .tecnologias li {
+    margin-top: 15px;
     font-size: 2rem;
     padding: 10px 15px;
   }
