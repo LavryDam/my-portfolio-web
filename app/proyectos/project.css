@@ -18,7 +18,6 @@
 .tarjeta-proyecto img {
   border-radius: 15px; 
   margin-bottom: 1rem;
-  object-fit: cover;
 }
 
 .contenedor-proyectos {
@@ -59,7 +58,7 @@
   padding: 0px 45px;
 }
 
-.imagen-proyecto-2 {
+.imagen-proyecto-1, .imagen-proyecto-2 {
   max-width: 90%;
 }
 
