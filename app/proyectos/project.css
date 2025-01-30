@@ -101,7 +101,7 @@
   }
 
   .detalle-proyecto-app {
-    padding: 0px 12px;
+    padding: 0px 20px;
   }
 
   .contenedor-proyectos {
@@ -116,6 +116,25 @@
 
   .detalle-proyecto{
     padding: 0px 12px;
+  }
+
+  .imagen-proyecto-1 {
+    width: 90%;
+    height: 43%;
+  }
+
+  .imagen-proyecto-2 {
+    width: 60%;
+    height: 50%;
+  }
+
+  .titulo-proyecto {
+    font-size: 1.5rem;
+  }
+
+  .tecnologias li {
+    font-size: 1rem;
+    padding: 5px 11px;
   }
 }
 
