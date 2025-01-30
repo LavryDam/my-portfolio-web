@@ -18,12 +18,13 @@
 .tarjeta-proyecto img {
   border-radius: 15px; 
   margin-bottom: 1rem;
+  object-fit: cover;
 }
 
 .contenedor-proyectos {
   display: flex;
   gap: 35px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .tarjeta-proyecto {
@@ -49,7 +50,7 @@
 .detalle-proyecto-app {
   font-size: 1rem;
   color: #010101;
-  padding: 0px 45px;
+  padding: 1px 65px;
 }
 
 .detalle-proyecto {
@@ -58,11 +59,8 @@
   padding: 0px 45px;
 }
 
-.imagen-proyecto {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
+.imagen-proyecto-2 {
+  max-width: 90%;
 }
 
 .enlace-proyecto {
@@ -153,8 +151,8 @@
   }
 
   .imagen-proyecto-1 {
-    width: 60%;
-    height: 50%;
+    width: 90%;
+    height: 43%;
   }
 
   .imagen-proyecto-2 {
@@ -164,6 +162,7 @@
 
   .titulo-proyecto {
     font-size: 2.5rem;
+    margin: 15px;
   }
 
   .detalle-proyecto, .detalle-proyecto-app {

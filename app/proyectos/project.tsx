@@ -15,8 +15,8 @@ function ProyectosPage() {
                     <Image
                         className="imagen-proyecto-1"
                         src="/images/libroRecetas.webp"
-                        width={300}
-                        height={200}
+                        width={415}
+                        height={215}
                         alt="Proyecto de app de recetas saludables"
                         priority
                     />
@@ -42,8 +42,9 @@ function ProyectosPage() {
                     <Image
                         className="imagen-proyecto-2"
                         src="/images/portfolio-web.webp"
-                        width={300}
-                        height={200}
+                        layout="responsive"
+                        width={600}
+                        height={300}
                         alt="Proyecto de portfolio web Dina Martinez Ruiz"
                         priority
                     />
