@@ -94,6 +94,7 @@ body {
     .about-page {
         margin: 20px;
         padding: 25px;
+        max-width: 89%;
     }
 
     .about-page h1 {

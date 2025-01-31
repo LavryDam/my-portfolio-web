@@ -46,7 +46,6 @@ function ProyectosPage() {
                         width={600}
                         height={300}
                         alt="Proyecto de portfolio web Dina Martinez Ruiz"
-                        priority
                     />
                     <h2 className="titulo-proyecto">Portfolio web Dina Martinez Ruiz</h2>
                     <p className="detalle-proyecto">
