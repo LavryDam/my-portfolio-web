@@ -25,13 +25,13 @@ function ProyectosPage() {
                         Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
                     </p>
                     <ul className="tecnologias">
-                        <li>Kotlin</li>
+                        <li>React Native</li>
                         <li>Firebase</li>
                         <li>Android</li>
-                        <li>Retrofit</li>
+                        <li>iOS</li>
                     </ul>
                     <Link
-                        href="https://github.com/LavryDam/portfolio-recipes-project.git"
+                        href="https://github.com/LavryDam/AppHealthyRecipes.git"
                         target="_blank"
                         className="enlace-proyecto"
                     >
