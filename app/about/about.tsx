@@ -26,7 +26,7 @@ function aboutPage(){
                 <div className="about-page">
                     <h1>Mi historia</h1>
                     <p className="bio-texto">
-                        Soy desarrolladora de software con experiencia en React y React Native, especializada en crear aplicaciones multiplataforma para Android e iOS.  
+                        Soy desarrolladora de software con experiencia en React, React Native y Kotlin, especializada en crear aplicaciones multiplataforma para Android e iOS.  
                         Me apasiona diseñar soluciones eficientes y adaptadas a las necesidades de cada proyecto.  
                         Actualmente, estoy ampliando mis conocimientos en Next.js para seguir innovando en el desarrollo web y móvil.  
                     </p>
