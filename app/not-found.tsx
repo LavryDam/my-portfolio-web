@@ -6,9 +6,7 @@ export default function NotFound() {
         <div className="not-found-container">
             <h1 className="not-found-title">404</h1>
             <p className="not-found-message">Lo sentimos, la página que buscas no existe.</p>
-            <Link legacyBehavior href="/" passHref>
-                <a className="not-found-link">Volver a Inicio</a>
-            </Link>
+            <Link className="not-found-link" href="/"> Volver a Inicio </Link>
         </div>
     );
 }
