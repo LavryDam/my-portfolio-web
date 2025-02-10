@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.dinamr.dev
+
+# Sitemaps
+Sitemap: https://www.dinamr.dev/sitemap.xml
