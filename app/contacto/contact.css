@@ -68,6 +68,18 @@
 .icon-button span {
     font-size: 0.9rem;
 }
+
+.email-text {
+    font-size: 18px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #FF5722;
+}
+
+.email-text :hover {
+    color: #fc4a1a;
+    text-decoration: underline;
+}
   
 @media (max-width: 768px) {
 

@@ -42,6 +42,7 @@ function contactoPage(){
                     </div>
                 </Link>
             </div>
+            <p className="email-text">dinamartinezruiz@gmail.com</p>
         </div>  
     );
 }
