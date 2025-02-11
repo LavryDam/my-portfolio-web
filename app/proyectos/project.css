@@ -18,6 +18,7 @@
 .tarjeta-proyecto img {
   border-radius: 15px; 
   margin-bottom: 1rem;
+  object-fit: cover;
 }
 
 .contenedor-proyectos {
@@ -30,7 +31,7 @@
   background-color: rgba(255, 255, 255, 0.352);
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
+  max-width: 430px;
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -119,12 +120,11 @@
   }
 
   .imagen-proyecto-1 {
-    width: 99%;
-    height: 180px;
+    width: 89%;
+    height: 137px;
   }
 
   .imagen-proyecto-2 {
-    width: 60%;
     height: 50%;
   }
 
