@@ -64,14 +64,14 @@ nav ul.navegacion li {
   }
 }
 /* tablet s*/
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .navbar {
     padding: 15px 20px;
     width: 90%;
   }
 }
 /* pantallas 4k */
-@media (min-width: 2028px) {
+@media (min-width: 1920px) {
   .navbar {
     padding: 40px;
     max-width: 1100px; 

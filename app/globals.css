@@ -106,7 +106,7 @@ body {
     }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
 
     .html, body{
         scroll-behavior: smooth;
@@ -151,7 +151,7 @@ body {
 
 }
 
-@media (min-width: 2028px) {
+@media (min-width: 1920px) {
     
     .text {
         width: 50%;
