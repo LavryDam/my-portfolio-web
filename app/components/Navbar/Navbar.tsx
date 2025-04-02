@@ -2,7 +2,6 @@ import Link from "next/link";
 import "./Navbar.css";
 import HamburgerMenu from "../Menu/HamburgerMenu";
 
-
 export default function Navbar(){
     return(
         <div>

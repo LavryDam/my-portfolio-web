@@ -3,10 +3,25 @@ import "./globals.css";
 import About from "./about/about";
 import Contact from "./contacto/contact";
 import Projects from "./proyectos/project";
+import Image from "next/image";
 
 export default function HomePage() {
   return(
     <>
+      <header className="language-selector">
+        <Link href="#" locale="es" className="Link-option">
+          <div className="lang-option">
+          <Image src="/images/uk.png" alt="EN" width={20} height={20} />
+            <span className="option">EN</span>
+          </div>
+        </Link>
+        <Link href="#" locale="en" className="Link-option">
+          <div className="lang-option active">
+          <Image src="/images/spain.png" alt="ES" width={22} height={22} />
+            <span className="option">ES</span>
+          </div>
+        </Link>
+      </header>
       <div className="content-container">
         <div className="image-container"></div>
         <div className="text">
