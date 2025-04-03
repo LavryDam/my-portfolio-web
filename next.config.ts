@@ -1,10 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig: import('next').NextConfig = {
-    i18n: {
-      locales: ["en", "es"],
-      defaultLocale: "es"
-    }
-  };
-  
-module.exports = nextConfig;
-  
+import {NextConfig} from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const nextConfig: NextConfig = {};
+ 
+const withNextIntl = createNextIntlPlugin(
+    './public/i18n/request.tsx',
+);
+
+export default withNextIntl(nextConfig);
