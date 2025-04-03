@@ -8,6 +8,7 @@ import Image from "next/image";
 export default function HomePage() {
   return(
     <>
+      <div className="content-container">
       <header className="language-selector">
         <Link href="#" locale="es" className="Link-option">
           <div className="lang-option">
@@ -22,7 +23,6 @@ export default function HomePage() {
           </div>
         </Link>
       </header>
-      <div className="content-container">
         <div className="image-container"></div>
         <div className="text">
           <h1 className="overlay-text">
