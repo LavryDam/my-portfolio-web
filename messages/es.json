@@ -1,15 +1,18 @@
 {
     "HomePage": {
-      "h1": "Hola, soy Dina.",
-      "about": "Una apasionada por el desarrollo de aplicaciones que conectan personas e ideas.",
-      "aboutLink": "Conocer más"
+        "title": "Hola, soy",
+        "name": "Dina.",
+        "about": "Una apasionada por el desarrollo de aplicaciones que conectan personas e ideas.",
+        "aboutLink": "Conocer más"
     },
     
-    "aboutPage": {
-        "h1": "About me",
-        "p1": "I am a software engineer with a passion for creating innovative solutions that make a difference.",
-        "p2": "With a strong background in web development and a keen eye for design, I strive to build user-friendly applications that enhance the user experience.",
-        "p3": "In my free time, I enjoy exploring new technologies and contributing to open-source projects."
+    "AboutPage": {
+        "title": "Mi historia",
+        "about": "Soy desarrolladora de software con experiencia en React, React Native y Kotlin, especializada en crear aplicaciones multiplataforma para Android e iOS. Me apasiona diseñar soluciones eficientes y adaptadas a las necesidades de cada proyecto. Actualmente, estoy ampliando mis conocimientos en Next.js para seguir innovando en el desarrollo web y móvil.",
+        "link": "Descargar CV",
+        "date1": "Finalicé Desarrollo de Aplicaciones Multiplataforma.",
+        "date2": "Prácticas en Ámsterdam desarrollando con React y React Native.",
+        "date3": "Empecé a explorar tecnologías como Next.js."
     },
 
     "ProyectosPage": {

@@ -1,8 +1,11 @@
-import Navbar from "./components/Navbar/Navbar";
-import { ReactNode } from "react";
-import Fonts from "../fonts/Fonts";
+import Navbar from "../components/Navbar/Navbar";
+import Fonts from "../../fonts/Fonts";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
+import { getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/public/i18n/routing";
 
 export const metadata = {
   title: "Dina Martínez Ruiz | Desarrolladora Web y Móvil",
@@ -12,18 +15,16 @@ export const metadata = {
     "portfolio, trabajo, proyectos, curriculum, desarrolladora web, react, kotlin",
 };
 
-type RootLayoutProps = {
-  children: ReactNode;
-  params: { lang: "en" | "es" };
-};
+export default async function RootLayout({ children, params }: {children: React.ReactNode; params: Promise<{ locale: "en" | "es" }>;}) {
+  const { locale } = await params;
+  if (!routing.locales.includes(locale)) {
+    notFound();
+  }
 
-export async function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "es" }];
-}
+  const message = await getMessages();
 
-export default function RootLayout({ params, children }: RootLayoutProps) {
   return (
-    <html lang={params.lang}>
+    <html lang={locale}>
       <head>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PNPEJXGWBK"></Script>
         <Script id="google-analytics" strategy="afterInteractive">
@@ -60,7 +61,9 @@ export default function RootLayout({ params, children }: RootLayoutProps) {
       </head>
       <body className={Fonts.className}>
         <Navbar />
-        {children}
+          <NextIntlClientProvider messages={message}>
+              {children}
+          </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>
