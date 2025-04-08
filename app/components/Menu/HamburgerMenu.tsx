@@ -2,7 +2,10 @@
 
 import { useState, useRef, useEffect } from "react";
 import "./HamburgerMenu.css";
-import Link from "next/link";
+import {useTranslations} from 'next-intl';
+import { Link } from "../../../public/i18n/navigation";
+import Image from "next/image";
+
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false); // Controla si el menú despegable está abierto
@@ -27,6 +30,8 @@ const HamburgerMenu = () => {
     };
   }, []);
 
+  const t = useTranslations('HamburgerMenu'); //Importa la función de traducción
+
   return (
     <div className="hamburger-container">
       <div className="text-hamburger">Dina M. Ruiz</div>
@@ -41,17 +46,30 @@ const HamburgerMenu = () => {
           <span className="line"></span>
         </button>
         <div className={`menu-content ${isOpen ? "open" : ""}`}> 
-          <Link href="#inicio" className="menu-item" onClick={() => setIsOpen(false)}>{/*Cierra el menú despegable al hacer clic en un enlace*/}
-            Inicio
+          <Link href="#inicio" className="menu-item" onClick={() => setIsOpen(false)}>
+          {/*Cierra el menú despegable al hacer clic en un enlace*/}
+          {t('home')}
           </Link>
           <Link href="#about" className="menu-item" onClick={() => setIsOpen(false)}>
-            Sobre mí
+          {t('about')}
           </Link>
           <Link href="#proyects" className="menu-item" onClick={() => setIsOpen(false)}>
-            Proyectos
+          {t('projects')}
           </Link>
           <Link href="#contact" className="menu-item" onClick={() => setIsOpen(false)}>
-            Contacto
+          {t('contact')}
+          </Link>
+          <Link href="/" locale="en" className="Link" onClick={() => setIsOpen(false)}>
+            <div>
+              <Image src="/images/uk.png" alt="EN" width={20} height={20} />
+              <span className="option-link">EN</span>
+            </div>
+          </Link>
+          <Link href="/" locale="es" className="Link" onClick={() => setIsOpen(false)}>
+            <div>
+              <Image src="/images/spain.png" alt="ES" width={20} height={20} />
+              <span className="option-link">ES</span>
+            </div>
           </Link>
         </div>
       </div>

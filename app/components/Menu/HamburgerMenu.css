@@ -92,6 +92,32 @@
     background-color: #f0f0f0;
 }
 
+.Link {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    padding: 0.8rem 1.2rem; /* Igual que otros enlaces */
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.Link:hover {
+    background-color: #f0f0f0;
+}
+
+.Link div {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre la imagen y el texto */
+}
+
+.Link img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Opcional: redondea las imágenes */
+}
+
 @media (max-width: 768px) {
     
     .text-hamburger {
