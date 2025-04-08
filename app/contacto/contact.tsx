@@ -1,16 +1,18 @@
-import Link from "next/link";
 import "./contact.css"
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import {useTranslations} from 'next-intl';
+import { Link } from "../../public/i18n/navigation";
 
 export const metadata = {
     title: "Contacto",
 }
 
-function contactoPage(){
+function ContactoPage(){
+    const t = useTranslations('ContactoPage');
     return(
         <div className="contact-page">
-            <h1>Contacto</h1>
+            <h1>{t('title')}</h1>
             <div className="contact-item">
                 <Link
                     href="https://www.linkedin.com/in/dina-martinez-ruiz19"
@@ -47,4 +49,4 @@ function contactoPage(){
     );
 }
 
-export default contactoPage;
+export default ContactoPage;

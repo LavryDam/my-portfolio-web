@@ -1,23 +1,25 @@
-import Link from "next/link";
 import "./Navbar.css";
 import HamburgerMenu from "../Menu/HamburgerMenu";
+import {useTranslations} from 'next-intl';
+import { Link } from "../../../public/i18n/navigation";
 
-export default function Navbar(){
+function Navbar(){
+    const t = useTranslations('Navbar');
     return(
         <div>
             <nav className="navbar">
                 <ul className="navegacion">
                     <li>
-                        <Link className="nav-link" href="#inicio">Inicio</Link>
+                        <Link className="nav-link" href="#inicio">{t('home')}</Link>
                     </li>
                     <li>
-                        <Link className="nav-link" href="#about">Sobre mi</Link>
+                        <Link className="nav-link" href="#about">{t('about')}</Link>
                     </li>
                     <li>
-                        <Link className="nav-link" href="#proyects">Proyectos</Link>
+                        <Link className="nav-link" href="#proyects">{t('projects')}</Link>
                     </li>
                     <li>
-                        <Link className="nav-link" href="#contact">¡Contáctame!</Link>
+                        <Link className="nav-link" href="#contact">{t('contact')}</Link>
                     </li>
                 </ul>
             </nav>
@@ -27,3 +29,5 @@ export default function Navbar(){
         </div>
     );
 }
+
+export default Navbar;

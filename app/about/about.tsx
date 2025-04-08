@@ -8,7 +8,6 @@ export const metadata = {
 
 function AboutPage(){
     const t = useTranslations('AboutPage');
- 
     return (
         <>
             <div className="contenedor-about">

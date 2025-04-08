@@ -1,5 +1,6 @@
+import Navbar from "../components/Navbar/Navbar";
 import "../globals.css";
-import About from "../about/About";
+import About from "../about/about";
 import Contact from "../contacto/contact";
 import Projects from "../proyectos/project";
 import Image from "next/image";
@@ -9,9 +10,9 @@ import { Link } from "../../public/i18n/navigation";
 export default function HomePage() {
   const t = useTranslations('HomePage');
   const locale = useLocale();
-
   return(
     <>
+      <Navbar />
       <div className="content-container">
       <header className="language-selector">
         <Link href="/" locale="en" className="Link-option">

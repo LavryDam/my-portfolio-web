@@ -16,18 +16,27 @@
     },
 
     "ProyectosPage": {
-        "h1": "My projects",
+        "title": "Mis proyectos",
         "project1": {
-            "title": "App of healthy recipes",
-            "description": "A web application that provides users with a collection of healthy recipes, allowing them to filter by dietary preferences."
+            "title": "App de Recetas Saludables y Personalizadas",
+            "description": "Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.",
+            "link": "Ver en GitHub"
         },
         "project2": {
-            "title": "Portfolio website",
-            "description": "A personal portfolio website showcasing my skills, projects, and experiences."
+            "title": "Portfolio web",
+            "description": "Una web diseñada para destacar mis habilidades como programadora, desarrollada con tecnología Next.js.",
+            "link": "Ver en GitHub"
         }
     },
 
-    "contactoPage": {
-        "h1": "Contact"
+    "ContactoPage": {
+        "title": "Contacto"
+    },
+
+    "Navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "¡Contáctame!"
     }
 }

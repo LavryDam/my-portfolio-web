@@ -16,18 +16,28 @@
     },
 
     "ProyectosPage": {
-      "h1": "My projects",
+      "title": "My projects",
       "project1": {
         "title": "App of healthy recipes",
-        "description": "A web application that provides users with a collection of healthy recipes, allowing them to filter by dietary preferences."
+        "description": "A web application that provides users with a collection of healthy recipes, allowing them to filter by dietary preferences.",
+        "link": "View on GitHub"
       },
       "project2": {
         "title": "Portfolio website",
-        "description": "A personal portfolio website showcasing my skills, projects, and experiences."
+        "description": "A personal portfolio website showcasing my skills, projects, and experiences.",
+        "link": "View on GitHub"
+
       }
     },
 
-    "contactoPage": {
-      "h1": "Contact"
+    "ContactoPage": {
+      "title": "Contact"
+    },
+
+    "Navbar": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact me!"
     }
 }

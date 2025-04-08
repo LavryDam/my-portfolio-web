@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar/Navbar";
 import Fonts from "../../fonts/Fonts";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
@@ -60,10 +59,9 @@ export default async function RootLayout({ children, params }: {children: React.
         />
       </head>
       <body className={Fonts.className}>
-        <Navbar />
-          <NextIntlClientProvider messages={message}>
-              {children}
-          </NextIntlClientProvider>
+        <NextIntlClientProvider messages={message}>
+          {children}
+        </NextIntlClientProvider>
         <Analytics />
       </body>
     </html>
