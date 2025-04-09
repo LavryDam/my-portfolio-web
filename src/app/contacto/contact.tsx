@@ -2,7 +2,7 @@ import "./contact.css"
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {useTranslations} from 'next-intl';
-import { Link } from "../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 
 export const metadata = {
     title: "Contacto",

@@ -1,10 +1,10 @@
-import Fonts from "../../fonts/Fonts";
+import Fonts from "../../../fonts/Fonts";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import { routing } from "@/public/i18n/routing";
+import { routing } from "@/src/i18n/routing";
 
 export const metadata = {
   title: "Dina Martínez Ruiz | Desarrolladora Web y Móvil",
@@ -44,18 +44,18 @@ export default async function RootLayout({ children, params }: {children: React.
         />
         <meta
           property="og:image"
-          content="https://portfolio-web-dina-martinez.vercel.app/images/portfolio-web.webp"
+          content="/images/portfolio-web.webp"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dinamr.dev/" />
+        <meta property="og:url" content="https://dinamr.dev/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="portfolio-web-dina-martinez.vercel.app" />
-        <meta property="twitter:url" content="https://www.dinamr.dev/" />
+        <meta property="twitter:domain" content="https://dinamr.dev/" />
+        <meta property="twitter:url" content="https://dinamr.dev/" />
         <meta name="twitter:title" content="Dina Martinez Ruiz" />
         <meta name="twitter:description" content="Portfolio web Dina Martinez Ruiz" />
         <meta
           name="twitter:image"
-          content="https://portfolio-web-dina-martinez.vercel.app/images/portfolio-web.webp"
+          content="/images/portfolio-web.webp"
         />
       </head>
       <body className={Fonts.className}>

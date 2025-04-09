@@ -1,7 +1,7 @@
 import "./project.css";
 import Image from 'next/image'
 import {useTranslations} from 'next-intl';
-import { Link } from "../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 
 export const metadata = {
     title: "Mis proyectos", 

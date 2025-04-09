@@ -1,6 +1,6 @@
 import "./about.css";
 import {useLocale, useTranslations} from 'next-intl';
-import { Link } from "../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 
 export const metadata = {
     title: "Sobre mí",

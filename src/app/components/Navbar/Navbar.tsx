@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import HamburgerMenu from "../Menu/HamburgerMenu";
 import {useTranslations} from 'next-intl';
-import { Link } from "../../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 
 function Navbar(){
     const t = useTranslations('Navbar');

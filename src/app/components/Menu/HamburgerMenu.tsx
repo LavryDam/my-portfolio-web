@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./HamburgerMenu.css";
 import {useTranslations} from 'next-intl';
-import { Link } from "../../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 import Image from "next/image";
 
 

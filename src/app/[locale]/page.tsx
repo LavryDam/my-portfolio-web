@@ -5,7 +5,7 @@ import Contact from "../contacto/contact";
 import Projects from "../proyectos/project";
 import Image from "next/image";
 import {useTranslations, useLocale} from 'next-intl';
-import { Link } from "../../public/i18n/navigation";
+import { Link } from "@/src/i18n/navigation";
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
