@@ -137,6 +137,55 @@ body {
     }
 }
 
+@media (max-width: 1200px) {
+    
+    .language-selector {
+        display: flex;
+        gap: 20px;
+        top: 20px;
+        right: 40px;
+    }
+    
+    .Link-option {
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .lang-option {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #000;
+        opacity: 0.5;
+        transition: opacity 0.4s ease-in-out, color 0.4s ease-in-out, transform 0.4s ease-in-out;
+    }
+    
+    .lang-option.active {
+        opacity: 1;
+    }
+    
+    .lang-option:hover {
+        opacity: 1; 
+        transform: scale(1.1);
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .option {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .language-selector {
+        display: none
+    }
+
+}
+
 @media (max-width: 768px) {
 
     .html, body{
