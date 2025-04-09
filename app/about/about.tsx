@@ -1,5 +1,5 @@
 import "./about.css";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { Link } from "../../public/i18n/navigation";
 
 export const metadata = {
@@ -8,6 +8,13 @@ export const metadata = {
 
 function AboutPage(){
     const t = useTranslations('AboutPage');
+    const locale = useLocale(); // Obtener el idioma actual
+
+    // Ruta del CV según el idioma
+    const cvPath = locale === 'es' 
+    ? "/docs/CV_DINAMARTINEZRUIZ.pdf" 
+    : "/docs/CV_DINAMARTINEZRUIZ_EN.pdf";
+
     return (
         <>
             <div className="contenedor-about">
@@ -28,7 +35,7 @@ function AboutPage(){
                 <div className="about-page">
                     <h1>{t('title')}</h1>
                     <p className="bio-texto">{t('about')}</p>
-                    <Link href="/docs/CV_DINAMARTINEZRUIZ.pdf" target="_blank" download className="enlace-cv">{t('link')}</Link>
+                    <Link href={cvPath} target="_blank" download className="enlace-cv">{t('link')}</Link>
                 </div>
             </div>
         </>
