@@ -11,9 +11,9 @@ function AboutPage(){
     const locale = useLocale(); // Obtener el idioma actual
 
     // Ruta del CV según el idioma
-    const cvPath = locale === 'es' 
-    ? "/docs/CV_DINAMARTINEZRUIZ.pdf" 
-    : "/docs/CV_DINAMARTINEZRUIZ_EN.pdf";
+    const cvPath = locale === 'en' 
+    ? "/docs/CV_DINAMARTINEZRUIZ_EN.pdf" 
+    : "/docs/CV_DINAMARTINEZRUIZ.pdf";
 
     return (
         <>
