@@ -1,6 +1,5 @@
 import "./about.css";
 import {useLocale, useTranslations} from 'next-intl';
-import { Link } from "@/src/i18n/navigation";
 
 export const metadata = {
     title: "Sobre mí",
@@ -35,7 +34,7 @@ function AboutPage(){
                 <div className="about-page">
                     <h1>{t('title')}</h1>
                     <p className="bio-texto">{t('about')}</p>
-                    <Link href={cvPath} target="_blank" download className="enlace-cv">{t('link')}</Link>
+                    <a href={cvPath} target="_blank" download className="enlace-cv">{t('link')}</a>
                 </div>
             </div>
         </>
