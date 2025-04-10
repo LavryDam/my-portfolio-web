@@ -42,10 +42,9 @@ export default async function RootLayout({ children, params }: {children: React.
           property="og:description"
           content="Descubre mi portafolio como desarrolladora web y móvil con proyectos destacados y habilidades técnicas."
         />
-        <meta
-          property="og:image"
-          content="/images/portfolio-web.webp"
-        />
+        <meta property="og:image" content="https://dinamr.dev/images/portfolio-web.webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://dinamr.dev/" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -53,10 +52,7 @@ export default async function RootLayout({ children, params }: {children: React.
         <meta property="twitter:url" content="https://dinamr.dev/" />
         <meta name="twitter:title" content="Dina Martinez Ruiz" />
         <meta name="twitter:description" content="Portfolio web Dina Martinez Ruiz" />
-        <meta
-          name="twitter:image"
-          content="/images/portfolio-web.webp"
-        />
+        <meta name="twitter:image" content="https://dinamr.dev/images/portfolio-web.webp" />
       </head>
       <body className={Fonts.className}>
         <NextIntlClientProvider messages={message}>
