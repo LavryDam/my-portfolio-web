@@ -20,11 +20,11 @@
   margin-bottom: 1rem;
   object-fit: cover;
 }
-
 .contenedor-proyectos {
   display: flex;
   gap: 35px;
   flex-direction: row;
+  align-items: stretch; /* Asegura que todas las tarjetas tengan la misma altura */
 }
 
 .tarjeta-proyecto {
@@ -32,6 +32,10 @@
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 390px;
+  flex: 1; /* Permite que todas las tarjetas ocupen el mismo espacio */
+  display: flex;
+  flex-direction: column; /* Mantiene el orden vertical de los elementos dentro de la tarjeta */
+  justify-content: space-between; /* Espacia los elementos dentro de cada tarjeta */
   padding: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
