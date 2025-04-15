@@ -119,6 +119,7 @@
   .tarjeta-proyecto {
     padding: 23px;
     border-radius: 30px; 
+    align-items: center;
   }
 
   .detalle-proyecto{
@@ -128,10 +129,13 @@
   .imagen-proyecto-1 {
     width: 89%;
     height: 137px;
+    display: block;
+    margin: 0 25px
   }
 
   .imagen-proyecto-2 {
     height: 50%;
+    margin-right: 25px;
   }
 
   .titulo-proyecto {
