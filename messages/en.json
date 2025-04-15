@@ -24,7 +24,7 @@
     },
     "project2": {
       "title": "Portfolio website",
-      "description": "A personal portfolio website showcasing my skills, projects, and experiences.",
+      "description": "A website designed to showcase my skills as a programmer, including my projects, experience, and achievements. I implemented a responsive design and added multilingual support (i18n) in Spanish and English.",
       "link": "View on GitHub"
 
     }
