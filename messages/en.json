@@ -19,7 +19,7 @@
     "title": "My projects",
     "project1": {
       "title": "App of healthy recipes",
-      "description": "A web application that provides users with a collection of healthy recipes, allowing them to filter by dietary preferences.",
+      "description": "An app dedicated to healthy recipes from around the world, designed to enjoy delicious, nutritious, and easy-to-prepare meals.",
       "link": "View on GitHub"
     },
     "project2": {
